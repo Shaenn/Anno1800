@@ -1,0 +1,49 @@
+<ModOps>
+  <!-- Factory Transporter -->
+  <ModOp Type="add" GUID='1010104' Path="/Values/Transporter7">
+    <TransporterCapacity>100</TransporterCapacity>
+    <ProcessingTimes>
+      <LoadingTime>0</LoadingTime>
+      <UnloadingTime>0</UnloadingTime>
+    </ProcessingTimes>
+  </ModOp>
+
+  <!-- Electric Factory Transporter -->
+  <ModOp Type="add" GUID='120028' Path="/Values/Transporter7">
+    <TransporterCapacity>100</TransporterCapacity>
+  </ModOp>
+  <ModOp Type="merge" GUID='120028' Path="/Values/Transporter7/ProcessingTimes">
+    <LoadingTime>0</LoadingTime>
+    <UnloadingTime>0</UnloadingTime>
+  </ModOp>
+  
+  <!-- Transporteur de l'entrepôt -->
+  <ModOp Type="add" GUID='1010105' Path="/Values/Transporter7">
+    <TransporterCapacity>100</TransporterCapacity>
+    <ProcessingTimes>
+      <LoadingTime>0</LoadingTime>
+      <UnloadingTime>0</UnloadingTime>
+    </ProcessingTimes>
+  </ModOp>
+
+  <!-- Electric Warehouse Transporter -->
+  <ModOp Type="add" GUID='120027' Path="/Values/Transporter7">
+    <TransporterCapacity>100</TransporterCapacity>
+  </ModOp>
+  <ModOp Type="merge" GUID='120027' Path="/Values/Transporter7/ProcessingTimes">
+    <LoadingTime>0</LoadingTime>
+    <UnloadingTime>0</UnloadingTime>
+  </ModOp>
+
+  <!-- Transporteur train -->
+  <ModOp Type="merge" GUID='120025' Path="/Values/Transporter7/ProcessingTimes">
+    <LoadingTime>0</LoadingTime>
+    <UnloadingTime>0</UnloadingTime>
+  </ModOp>
+
+  <!-- Transporteur tracteur -->
+  <ModOp Type="merge" GUID='120062' Path="/Values/Transporter7/ProcessingTimes">
+    <LoadingTime>0</LoadingTime>
+    <UnloadingTime>0</UnloadingTime>
+  </ModOp>
+</ModOps>

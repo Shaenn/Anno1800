@@ -1,0 +1,47 @@
+<ModOps>
+  <!-- Petit comptoir -->
+  <ModOp Type="add" GUID='1010517' Path="/Values">
+    <LogisticNode>
+      <QueueConfiguration>
+        <ProcessingQueueParallelCount>6</ProcessingQueueParallelCount>
+      </QueueConfiguration>
+    </LogisticNode>
+  </ModOp>
+
+  <!-- Comptoir moyen -->
+  <ModOp Type="merge" GUID='100510' Path="/Values/LogisticNode/QueueConfiguration">
+    <ProcessingQueueParallelCount>8</ProcessingQueueParallelCount>
+  </ModOp>
+
+  <!-- Grand comptoir -->
+  <ModOp Type="merge" GUID='100511' Path="/Values/LogisticNode/QueueConfiguration">
+    <ProcessingQueueParallelCount>10</ProcessingQueueParallelCount>
+  </ModOp>
+ 
+  <!-- Comptoir aérien -->
+  <ModOp Type="add" GUID='112726' Path="/Values">
+    <LogisticNode>
+      <QueueConfiguration>
+        <ProcessingQueueParallelCount>8</ProcessingQueueParallelCount>
+      </QueueConfiguration>
+    </LogisticNode>
+  </ModOp>
+  
+  <!-- Comptoir aérien -->
+  <ModOp Type="add" GUID='116003' Path="/Values">
+    <LogisticNode>
+      <QueueConfiguration>
+        <ProcessingQueueParallelCount>10</ProcessingQueueParallelCount>
+      </QueueConfiguration>
+    </LogisticNode>
+  </ModOp>
+
+  <!-- Comptoir aérien -->
+  <ModOp Type="add" GUID='116004' Path="/Values">
+    <LogisticNode>
+      <QueueConfiguration>
+        <ProcessingQueueParallelCount>12</ProcessingQueueParallelCount>
+      </QueueConfiguration>
+    </LogisticNode>
+  </ModOp>
+</ModOps>
