@@ -1,0 +1,15 @@
+<ModOps>
+  <ModOp Path="/Values/FactoryBase"
+         GUID="1800000307"
+         Type="merge">
+    <FactoryBase>
+      <FactoryInputs>
+        <Item>
+          <Amount>1</Amount>
+          <StorageAmount>80</StorageAmount>
+        </Item>
+      </FactoryInputs>
+      <CycleTime>60</CycleTime>
+    </FactoryBase>
+  </ModOp>
+</ModOps>
