@@ -1,0 +1,23 @@
+<ModOps>
+	<ModOp Type="merge" GUID="1010035" Path="/Values/Street">
+		<CfgFileName>data/graphics/effects/street/earth/earth_street_01/earth_street_01.cfg</CfgFileName>
+		<InvalidColor>-50116</InvalidColor>
+		<BridgeAsset>101328</BridgeAsset>
+		<!--Dirt Bridge-->
+		<InternalID>1</InternalID>
+		<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+		<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+		<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+		<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+		<Quality>4</Quality>
+		<OverbuildRule>BadStreet</OverbuildRule>
+		<SpeedFactor>4</SpeedFactor>
+		<CanBuildOnShore>1</CanBuildOnShore>
+		<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+		<AdaptToNeighbors>
+			<AdaptGroups>Street;StreetLowQuality</AdaptGroups>
+			<NeighborsThatMakeUsAdapt>StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetLowQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetLowQuality;QuayStreet;StreetLowQuality</NeighborsThatMakeUsAdapt>
+		</AdaptToNeighbors>
+		<UpgradeModeTarget>1010035</UpgradeModeTarget>
+	</ModOp>
+</ModOps>
