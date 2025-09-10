@@ -30,3 +30,25 @@ Nouveau monde -> Ancien monde
 18.Chewing-gum
 19.Celluloid
 20.Ethanol
+
+Ancien monde -> Arctique
+1.Eau de vie
+2.Flûte
+3.Pain
+4.Suif
+5.laiton
+6.Conserves
+7.Café
+8.Guitares
+9.Rhum
+10.Dynamite
+
+Ancien monde -> Nouveau monde (Guitares) 
+1.Fourneau
+2.Laque
+3.Corde
+
+Arctique -> Ancien monde
+1.Peau d'ours
+1.Plumes d'oies
+3.Viande de caribou (restaurants)
