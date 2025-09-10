@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1998000005</GUID>
+      <Text>Wouallez les gens !</Text>
+    </Text>
+  </ModOp>
+</ModOps>
