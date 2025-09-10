@@ -21,7 +21,7 @@ foreach ($dir in $finalDirs) {
     $type  = ($typeRaw  -replace "^\d+\.", "").Trim()
 
     # Nouveau nom du dossier
-    $newName = "[{0}] [{1}] [{2}] {3}" -f $gameplay, $world, $type, $dir.Name
+    $newName = "{0} - {1} - {2} - {3}" -f $gameplay, $world, $type, $dir.Name
 
     # Chemin de destination (à côté de Gameplay)
     $destPath = Join-Path $root $newName

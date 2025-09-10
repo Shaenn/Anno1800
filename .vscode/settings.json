@@ -22,6 +22,9 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    "AddOn */**": true,
+    "Boost */**": true,
+    "Gameplay */**": true
   },
   "explorerExclude.backup": {}
 }

@@ -15,7 +15,7 @@ foreach ($dir in $finalDirs) {
     $category = ($dir.Name -replace "^\d+\.", "").Trim()
 
     # Nouveau nom du dossier
-    $newName = "[{0}] [{1}]" -f $addon, $category
+    $newName = "{0} - {1}" -f $addon, $category
 
     # Chemin de destination (à côté de AddOn)
     $destPath = Join-Path $root $newName
