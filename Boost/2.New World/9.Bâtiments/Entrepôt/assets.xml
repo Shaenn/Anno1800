@@ -1,0 +1,28 @@
+<ModOps>
+  <!-- Entrepôt niveau 1-->
+  <ModOp Type="add" GUID='101323' Path="/Values">
+    <LogisticNode>
+      <QueueConfiguration>
+        <ProcessingQueueParallelCount>4</ProcessingQueueParallelCount>
+      </QueueConfiguration>
+    </LogisticNode>
+  </ModOp>
+
+  <!-- Entrepôt niveau 2-->
+  <ModOp Type="add" GUID='101324' Path="/Values">
+    <LogisticNode>
+      <QueueConfiguration>
+        <ProcessingQueueParallelCount>8</ProcessingQueueParallelCount>
+      </QueueConfiguration>
+    </LogisticNode>
+  </ModOp>
+
+  <!-- Entrepôt niveau 3-->
+  <ModOp Type="add" GUID='101325' Path="/Values">
+    <LogisticNode>
+      <QueueConfiguration>
+        <ProcessingQueueParallelCount>8</ProcessingQueueParallelCount>
+      </QueueConfiguration>
+    </LogisticNode>
+  </ModOp>
+</ModOps>
