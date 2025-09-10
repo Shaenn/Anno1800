@@ -1,0 +1,33 @@
+<ModOps>
+	<!-- Bâteaux du chantier naval pour voiliers-->
+	<ModOp
+		Type="add"
+		GUID="100438,100437,100439,100441,100440"
+		Path="/Values/TradeRouteVehicle">
+		<LoadingSpeedFactor>100</LoadingSpeedFactor>
+	</ModOp>
+
+	<!-- Bâteaux du chantier naval pour bâteaux à vapeur-->
+	<ModOp
+		Type="add"
+		GUID="1010062,100442,100443"
+		Path="/Values/TradeRouteVehicle">
+		<LoadingSpeedFactor>100</LoadingSpeedFactor>
+	</ModOp>
+
+	<!-- AirShip -->
+	<ModOp 
+		Type="add" 
+		GUID="114166" 
+		Path="/Values/TradeRouteVehicle">
+		<LoadingSpeedFactor>100</LoadingSpeedFactor>
+	</ModOp>
+	
+	<!-- Pétrolier -->
+	<ModOp 
+	Type="replace" 
+	GUID='100853' 
+	Path="/Values/TradeRouteVehicle">
+		<LoadingSpeedFactor>100</LoadingSpeedFactor>
+	</ModOp>
+</ModOps>
