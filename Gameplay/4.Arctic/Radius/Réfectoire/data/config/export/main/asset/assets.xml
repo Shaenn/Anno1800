@@ -1,0 +1,6 @@
+<ModOps>
+	<ModOp Type="merge" GUID="114889" Path="/Values/PublicService">	
+		<FullSupplyDistance>500</FullSupplyDistance>
+        <NoSupplyDistance>600</NoSupplyDistance>
+	</ModOp>
+</ModOps>

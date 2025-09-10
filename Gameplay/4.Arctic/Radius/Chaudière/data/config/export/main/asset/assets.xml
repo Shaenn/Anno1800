@@ -1,0 +1,9 @@
+<ModOps>
+	<ModOp Type="add" GUID="114751" Path="/Values">
+		<HeatProvider>
+			<HeatRange>47</HeatRange>
+			<MinProductivityPercentToProvideHeat>90</MinProductivityPercentToProvideHeat>
+			<MissingHeatNotification>115008</MissingHeatNotification>
+		</HeatProvider>
+	</ModOp>
+</ModOps>
