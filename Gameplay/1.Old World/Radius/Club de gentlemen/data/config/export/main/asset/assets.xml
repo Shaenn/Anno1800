@@ -1,0 +1,6 @@
+<ModOps>
+	<ModOp Type="merge" GUID="1010364" Path="/Values/PublicService">	
+		<FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+	</ModOp>
+</ModOps>

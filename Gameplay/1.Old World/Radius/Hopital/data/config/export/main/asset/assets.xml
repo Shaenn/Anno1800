@@ -1,0 +1,6 @@
+<ModOps>
+	<ModOp Type="merge" GUID="1010464" Path="/Values/IncidentInfluencer/Influence/Illness">
+        <Influence>-99</Influence>
+        <Distance>500</Distance>
+    </ModOp>
+</ModOps>
