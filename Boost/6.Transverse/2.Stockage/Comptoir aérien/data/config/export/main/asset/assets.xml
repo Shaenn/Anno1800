@@ -1,0 +1,7 @@
+<ModOps>
+	<ModOp Type="add" GUID="112726,116003,116004" Path="/Values/Warehouse">
+		<WarehouseStorage>
+			<StorageMax>2500</StorageMax>
+		</WarehouseStorage>
+	</ModOp>
+</ModOps>
