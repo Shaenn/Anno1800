@@ -11,8 +11,8 @@
         <ItemEffect>
           <EffectTargets>
             <Item>
-              <GUID>142785</GUID>
-            </Item>            
+              <GUID>190762</GUID>
+            </Item>
           </EffectTargets>
         </ItemEffect>
         <Text>
@@ -220,57 +220,6 @@
               <Condition />
               <ConditionActiveSession>
                 <ActiveSession>110934</ActiveSession>
-              </ConditionActiveSession>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionBuff</Template>
-                <Values>
-                  <Action />
-                  <ActionBuff>
-                    <BuffAsset>1998000005</BuffAsset>
-                    <AddBuff>0</AddBuff>
-                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
-                  </ActionBuff>
-                </Values>
-              </TriggerAction>
-            </Item>
-            <Item>
-              <TriggerAction>
-                <Template>ActionBuff</Template>
-                <Values>
-                  <Action />
-                  <ActionBuff>
-                    <BuffAsset>1998000005</BuffAsset>
-                    <AddBuff>1</AddBuff>
-                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
-                  </ActionBuff>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-
-    <!-- Arctique -->
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>1998000405</GUID>
-          <Name>Buff de population</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionActiveSession</Template>
-            <Values>
-              <Condition />
-              <ConditionActiveSession>
-                <ActiveSession>180045</ActiveSession>
               </ConditionActiveSession>
             </Values>
           </TriggerCondition>
