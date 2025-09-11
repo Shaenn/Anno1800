@@ -1,0 +1,306 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID='127867'>
+    <Asset>
+      <Template>VehicleBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1998000044</GUID>
+          <Name>Buff de rapidité</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/newspaper/icon_fire_rate_green.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Buff de rapidité</Text>
+              <Status>Exported</Status>
+              <ExportCount>10</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>1998999999</LineID>
+        </Text>
+        <VehicleUpgrade>
+          <ForwardSpeedUpgrade>
+            <Value>10000</Value>
+            <Percental>1</Percental>
+          </ForwardSpeedUpgrade>
+        </VehicleUpgrade>
+        <Buff />
+        <AttackerUpgrade />
+        <AttackableUpgrade />
+        <ProjectileUpgrade />
+        <TradeShipUpgrade>
+          <LoadingSpeedUpgrade>
+            <Value>10000</Value>
+            <Percental>1</Percental>
+          </LoadingSpeedUpgrade>
+        </TradeShipUpgrade>
+        <UpgradeList />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114166</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <DivingBellUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='1998000003'>
+   <!-- Ancien monde -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1998000144</GUID>
+          <Name>Buff de rapidité</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionActiveSession</Template>
+            <Values>
+              <Condition />
+              <ConditionActiveSession>
+                <ActiveSession>180023</ActiveSession>
+              </ConditionActiveSession>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>0</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+
+    <!-- Nouveau monde -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1998000244</GUID>
+          <Name>Buff de rapidité</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionActiveSession</Template>
+            <Values>
+              <Condition />
+              <ConditionActiveSession>
+                <ActiveSession>180025</ActiveSession>
+              </ConditionActiveSession>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>0</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+
+    <!-- Trésor englouti-->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1998000344</GUID>
+          <Name>Buff de rapidité</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionActiveSession</Template>
+            <Values>
+              <Condition />
+              <ConditionActiveSession>
+                <ActiveSession>110934</ActiveSession>
+              </ConditionActiveSession>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>0</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+
+    <!-- Arctique-->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1998000444</GUID>
+          <Name>Buff de rapidité</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionActiveSession</Template>
+            <Values>
+              <Condition />
+              <ConditionActiveSession>
+                <ActiveSession>180045</ActiveSession>
+              </ConditionActiveSession>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>0</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+
+    <!-- Africa -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1998000544</GUID>
+          <Name>Buff de rapidité</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionActiveSession</Template>
+            <Values>
+              <Condition />
+              <ConditionActiveSession>
+                <ActiveSession>112132</ActiveSession>
+              </ConditionActiveSession>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>0</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1998000044</BuffAsset>
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>
