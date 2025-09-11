@@ -1,0 +1,169 @@
+<ModOps>
+	<!--Old World Farmers-->
+	<ModOp Type="replace" GUID="1010343" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Old World Workers-->
+	<ModOp Type="replace" GUID="1010344" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Old World Artisans-->
+	<ModOp Type="replace" GUID="1010345" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Old World Engineers-->
+	<ModOp Type="replace" GUID="1010346" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Engineers Skyscrapers-->
+	<ModOp Type="replace" GUID="601888" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<ModOp Type="replace" GUID="601889" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<ModOp Type="replace" GUID="601890" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Old World Investors-->
+	<ModOp Type="replace" GUID="1010347" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Investors Skyscrapers-->
+	<ModOp Type="replace" GUID="601882" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<ModOp Type="replace" GUID="601883" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<ModOp Type="replace" GUID="601884" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<ModOp Type="replace" GUID="601886" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<ModOp Type="replace" GUID="601891" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--New World Jornaleros-->
+	<ModOp Type="replace" GUID="101254" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--New World Obreros-->
+	<ModOp Type="replace" GUID="101255" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--New World Artistas-->
+	<ModOp Type="replace" GUID="5405" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Hacienda Quarters-->
+	<ModOp Type="replace" GUID="24792" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<ModOp Type="replace" GUID="24793" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<ModOp Type="replace" GUID="6086" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Arctic Explorers-->
+	<ModOp Type="replace" GUID="112091" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Arctic Technicians-->
+	<ModOp Type="replace" GUID="112652" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Enbesa Shepherds-->
+	<ModOp Type="replace" GUID="5405" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Enbesa Elders-->
+	<ModOp Type="replace" GUID="5405" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Scholar Residence-->
+	<ModOp Type="replace" GUID="114445" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+	<!--Tourists Hotel-->
+	<ModOp Type="replace" GUID="601445" Path="/Values/Culture">
+		<Culture>
+			<Attractiveness>35</Attractiveness>
+			<CultureType>Culture</CultureType>
+		</Culture>
+	</ModOp>
+</ModOps>

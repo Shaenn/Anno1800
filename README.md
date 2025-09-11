@@ -52,3 +52,16 @@ Arctique -> Ancien monde
 1.Peau d'ours
 1.Plumes d'oies
 3.Viande de caribou (restaurants)
+4.Gaz
+
+Arctique -> Alimentation plateau de gaz
+1.Pemmican
+2.Lampes à huile
+3.Sacs de couchage
+4.Eau de vie
+5.Flûte
+6.Conserves
+7.Traineaux de huskies
+8.Parkas
+9.Café
+10.Guitares

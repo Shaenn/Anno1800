@@ -32,17 +32,18 @@
 	</ModOp>
 	
 	<!-- Modification de l'affichage pour les routes de commerces -->
-	<!-- <ModOp
-		Type="replace"
-		GUID="140011"
-		Path="/Values/TradeRouteFeature/TransportationTypes">
-		<Normal>
-			<DefaultGoodTransferAmount>200</DefaultGoodTransferAmount>
-			<MaxGoodTransferAmount>200</MaxGoodTransferAmount>
-		</Normal>
-		<Oil>
-			<DefaultGoodTransferAmount>500</DefaultGoodTransferAmount>
-			<MaxGoodTransferAmount>500</MaxGoodTransferAmount>
-		</Oil>
-	</ModOp> -->
+	 <!-- Normal -->
+	<ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Normal/MaxGoodTransferAmount">
+		<MaxGoodTransferAmount>200</MaxGoodTransferAmount>
+	</ModOp>
+	<ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Normal/DefaultGoodTransferAmount">
+		<DefaultGoodTransferAmount>200</DefaultGoodTransferAmount>
+	</ModOp>
+	<!-- Oil -->
+	<ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Oil/DefaultGoodTransferAmount">
+		<DefaultGoodTransferAmount>500</DefaultGoodTransferAmount>
+	</ModOp>
+	<ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Oil/MaxGoodTransferAmount">
+		<MaxGoodTransferAmount>500</MaxGoodTransferAmount>
+	</ModOp>
 </ModOps>

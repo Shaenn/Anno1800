@@ -1,0 +1,38 @@
+<ModOps>
+	<!-- Increases Effective Distance By 100% -->
+
+
+
+
+
+
+
+	<!-- Marketplace Africa -->
+	<ModOp Path="/Values/PublicService" GUID="114518" Type="merge">
+		<FullSatisfactionDistance>50</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+	</ModOp>
+
+
+	<!-- Monastery -->
+	<ModOp Path="/Values/PublicService" GUID="114520" Type="merge">
+		<FullSatisfactionDistance>60</FullSatisfactionDistance>
+        <NoSatisfactionDistance>120</NoSatisfactionDistance>
+	</ModOp>
+
+	<!-- Musicians' Court -->
+	<ModOp Path="/Values/PublicService" GUID="114519" Type="merge">
+		<FullSatisfactionDistance>60</FullSatisfactionDistance>
+        <NoSatisfactionDistance>120</NoSatisfactionDistance>
+	</ModOp>
+
+
+
+	<!-- Radio Tower -->
+	<ModOp Path="/Values/PublicService" GUID="118736" Type="merge">
+		<FullSatisfactionDistance>50</FullSatisfactionDistance>
+        <NoSatisfactionDistance>100</NoSatisfactionDistance>
+	</ModOp>
+
+
+</ModOps>

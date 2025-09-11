@@ -1,0 +1,75 @@
+<ModOps>
+	<!-- Reduce Fields by 50% -->
+	<!-- Potato Farm Old World -->
+	
+
+
+	<!-- Apiary -->
+	<ModOp Path="/Values/ModuleOwner" GUID="114453" Type="merge">
+		<ModuleLimits>
+			<Main>
+				<Limit>
+					9
+				</Limit>
+			</Main>
+		</ModuleLimits>
+	</ModOp>
+
+
+
+
+
+	<!-- Hibiscus Farm Africa -->
+	<ModOp Path="/Values/ModuleOwner" GUID="114447" Type="merge">
+		<ModuleLimits>
+			<Main>
+				<Limit>
+					9
+				</Limit>
+			</Main>
+		</ModuleLimits>
+	</ModOp>
+	<!-- Indigo Farm Africa -->
+	<ModOp Path="/Values/ModuleOwner" GUID="114451" Type="merge">
+		<ModuleLimits>
+			<Main>
+				<Limit>
+					9
+				</Limit>
+			</Main>
+		</ModuleLimits>
+	</ModOp>
+	<!-- Linseed Farm Africa -->
+	<ModOp Path="/Values/ModuleOwner" GUID="114448" Type="merge">
+		<ModuleLimits>
+			<Main>
+				<Limit>
+					9
+				</Limit>
+			</Main>
+		</ModuleLimits>
+	</ModOp>
+
+	<!-- Spice Farm Africa -->
+	<ModOp Path="/Values/ModuleOwner" GUID="114452" Type="merge">
+		<ModuleLimits>
+			<Main>
+				<Limit>
+					9
+				</Limit>
+			</Main>
+		</ModuleLimits>
+	</ModOp>
+
+
+	<!-- Teff Farm Africa -->
+	<ModOp Path="/Values/ModuleOwner" GUID="114450" Type="merge">
+		<ModuleLimits>
+			<Main>
+				<Limit>
+					9
+				</Limit>
+			</Main>
+		</ModuleLimits>
+	</ModOp>
+</ModOps>
