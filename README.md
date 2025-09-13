@@ -101,6 +101,10 @@ Enbesa -> Ancien monde
 8. Bois de wanza
 9. Boeuf sanga
 10. Cire d'abeille
+11. Lin
+12. Thé
+13. Ragoût
+14. Tapisserie
+15. Pipe en argile
 
 
-upgrade des harpes!!
