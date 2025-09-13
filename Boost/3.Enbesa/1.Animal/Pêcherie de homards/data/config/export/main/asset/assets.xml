@@ -1,0 +1,21 @@
+<ModOps>
+  <ModOp Path="/Values/FactoryBase"
+         GUID="118729"
+         Type="merge">
+    <FactoryBase>
+      <FactoryOutputs>
+        <Item>
+          <Amount>100</Amount>
+          <StorageAmount>8000</StorageAmount>
+        </Item>
+      </FactoryOutputs>
+      <CycleTime>15</CycleTime>
+    </FactoryBase>
+  </ModOp>
+
+  <!-- Suppression de la fertilité requise -->
+  <ModOp Path="/Values/Factory7/NeededFertility"
+         GUID="118729"
+         Type="replace">
+  </ModOp>
+</ModOps>
