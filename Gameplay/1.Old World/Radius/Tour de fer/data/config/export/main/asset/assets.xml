@@ -1,0 +1,8 @@
+<ModOps>
+<ModOp Type="merge" GUID="133930,133928,133933,133931,133932" Path="/Values/BuffFactory">	
+		<BuffFactory>
+			<ProductionBuffScope>Radius</ProductionBuffScope>
+			<ProductionBuffDistance>6666</ProductionBuffDistance>
+		</BuffFactory>
+	</ModOp>
+</ModOps>
