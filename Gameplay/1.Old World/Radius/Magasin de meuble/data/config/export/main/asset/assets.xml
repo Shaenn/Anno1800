@@ -1,5 +1,5 @@
 <ModOps>
-	<ModOp Type="merge" GUID="135191,135193,135192,135194,134631" Path="/Values/BuffFactory">	
+	<ModOp Type="merge" GUID="135105,135122,135123,135120,135121" Path="/Values/BuffFactory">	
 		<BuffFactory>
 			<ProductionBuffScope>Radius</ProductionBuffScope>
 			<ProductionBuffDistance>9999</ProductionBuffDistance>
