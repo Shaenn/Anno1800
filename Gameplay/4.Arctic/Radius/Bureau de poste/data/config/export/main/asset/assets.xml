@@ -1,6 +1,6 @@
 <ModOps>
-	<ModOp Type="merge" GUID="112684" Path="/Values/PublicService">	
-		<FullSupplyDistance>500</FullSupplyDistance>
-        <NoSupplyDistance>600</NoSupplyDistance>
+	<ModOp Type="merge" GUID="4260" Path="/Values/PublicService">	
+		<FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
 	</ModOp>
 </ModOps>

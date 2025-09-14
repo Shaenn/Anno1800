@@ -1,0 +1,16 @@
+<ModOps>
+	<ModOp Type="merge" GUID="4260" Path="/Values/Warehouse/WarehouseStorage">	
+		<StorageMax>8000</StorageMax>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase/FactoryOutputs"
+         GUID="4260"
+         Type="merge">
+      <FactoryOutputs>
+        <Item>
+          <Amount>100</Amount>
+          <StorageAmount>8000</StorageAmount>
+        </Item>
+      </FactoryOutputs>
+  </ModOp>
+</ModOps>
