@@ -1,0 +1,31 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Texte pour le produit -->
+    <Text>
+      <GUID>1988000030</GUID>
+      <Text>Saxophone</Text>
+    </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
+    <Text>
+      <GUID>1988000032</GUID>
+      <Text>Saxophone</Text>
+    </Text>
+
+    <!-- Texte pour le bâtiment -->
+    <Text>
+      <GUID>1988000034</GUID>
+      <Text>Atelier d'Artisan : Saxophone</Text>
+    </Text>
+
+    <!-- Texte pour la recette -->
+    <Text>
+      <GUID>1988000037</GUID>
+      <Text>Saxophone</Text>
+    </Text>
+    <Text>
+      <GUID>1988000038</GUID>
+      <Text>Produire des saxophones avec cette recette.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

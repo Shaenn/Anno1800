@@ -1,0 +1,14 @@
+{
+    "ModID": "musique-ancien-monde-saxophone",
+    "Version": "1.0",
+    "Category": {
+        "English": "AddOn",
+        "French": "AddOn"
+    },
+    "ModName": {
+        "English": "Musique - Ancien monde - Saxophone",
+        "French": "Musique - Ancien monde - Saxophone"
+    },
+    "CreatorName": "Shaenn",
+    "CreatorContact": "https://github.com/Shaenn/Anno1800"
+}

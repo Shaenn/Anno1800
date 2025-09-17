@@ -1,0 +1,377 @@
+<ModOps>
+  <!-- Ajout du nouveau produit -->
+  <ModOp Type="addNextSibling" GUID='1010200'>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000030</GUID>
+          <Name>Saxophone</Name>
+          <IconFilename>data/graphics/icons/saxophone.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Saxophone</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11705</ProductCategory>
+          <BasePrice>150</BasePrice>
+          <CivLevel>3</CivLevel>
+          <!-- Indique dans quelles régions le produit peut être demandé. -->
+          <AssociatedRegion>Moderate;Colony01;Arctic;Africa</AssociatedRegion>
+          <!-- Indique dans quelles régions le produit peut être produit. -->
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+				      </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>20</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Ajout du produit dans les listes de stockage (Affichage dans les marchés, réfectoire suivant les besoins de la population) -->
+  <ModOp Type="add" GUID='120055,120057,120058,120059,122362' Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>1988000030</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Ajout du produit dans les différentes listes des sessions au niveau des entrepôts -->
+  <ModOp Type="add" GUID="502085,502014,502012,502013,502081,502035,502031,502034" Path="/Values/ProductList/List">
+    <Item>
+      <Product>1988000030</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Ajout du bâtiment pour produire -->
+  <ModOp Type="addNextSibling" GUID='1010284'>
+    <Asset>
+      <Template>Multifactory</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000034</GUID>
+          <Name>Atelier d'Artisan : Saxophone</Name>
+          <IconFilename>data\graphics\icons\saxophone.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>132773</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking/>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\buildings\production\manufactory\manufactory_05.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>135295</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>12000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh/>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <StaticHelpEntryPoint>HighLifeArtisanWorkshops</StaticHelpEntryPoint>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text />
+        <Constructable/>
+        <Locked>
+          <DLCDependency>410085</DLCDependency>
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>280042</Sound>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Multifactory</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <Factory7/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010204</Product>
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1988000030</Product>
+              <Amount>100</Amount>
+              <StorageAmount>8000</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>15</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode/>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>200</Amount>
+              <InactiveAmount>50</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010116</Product>
+              <Amount>60</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable/>
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <DamageExplosionChance>0</DamageExplosionChance>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Explosion>
+              <BaseChance>4</BaseChance>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Electrifiable/>
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+        </AmbientMoodProvider>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>5000</MaximumHitPoints>
+        </Attackable>
+        <UpgradeList/>
+        <Pausable/>
+        <FeedbackController/>
+        <Infolayer/>
+        <RecipeBuilding>
+          <RecipeList>135415</RecipeList>
+        </RecipeBuilding>
+        <Culture>
+          <Attractiveness>0</Attractiveness>
+          <HasPollution>0</HasPollution>
+        </Culture>
+      </Values>
+    </Asset>
+    </ModOp>
+
+  <!-- Ajout de la prévisualisation de la chaîne de production -->
+  <ModOp Type="addNextSibling" GUID='500091'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000032</GUID>
+          <Name>Saxophone</Name>
+          <IconFilename>data/graphics/icons/saxophone.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>1988000034</Building>
+          <Tier1>
+            <Item>
+              <Building>1010282</Building>
+              <Tier2>
+                <Item>
+                  <Building>1010307</Building>
+                </Item>
+                <Item>
+                  <Building>1010308</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />        
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="AddNextSibling" GUID='135416'>
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000037</GUID>
+          <Name>Saxophone</Name>
+          <IconFilename>data\graphics\icons\saxophone.png</IconFilename>
+        </Standard>
+        <Text />
+        <Recipe>
+          <RecipeBuilding>1988000034</RecipeBuilding>
+          <RecipeDescriptionText>1988000038</RecipeDescriptionText>
+          <RecipeImage>data\graphics\recipebook\recipebook_artisans_workshop_saxophone.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>50</PosX>
+              <PosY>60</PosY>
+              <UICirclePointer>East</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+        </Recipe>
+        <Locked/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Ajout au menu de construction du bon tier de population après un bouton en particulier -->
+  <ModOp Type="addNextSibling" GUID='25000192' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500901']">
+    <Item>
+      <Building>1988000032</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Ajout de la châine de production au menu de constructions des besoins -->
+  <ModOp Type="addNextSibling" GUID='500945' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500901']">
+    <Item>
+      <Building>1988000032</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Ajout du produit dans les besoins de la population -->
+  <ModOp Type="add" GUID='15000002,15000003,15000004,601379' Path="/Values/PopulationLevel7/PopulationInputs/">
+    <Item>
+      <Product>1988000030</Product>
+      <Amount>0.0001</Amount>
+      <HappinessValue>5</HappinessValue>
+      <MoneyValue>20</MoneyValue>
+      <FullWeightPopulationCount>300</FullWeightPopulationCount>
+      <NoWeightPopulationCount>199</NoWeightPopulationCount>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>15000002</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='118745' Path="/Values/PopulationLevel7/PopulationInputs/">
+    <Item>
+      <Product>1988000020</Product>
+      <Amount>0.0001</Amount>
+      <HappinessValue>10</HappinessValue>
+      <ResearchValue>4</ResearchValue>
+      <FullWeightPopulationCount>300</FullWeightPopulationCount>
+      <NoWeightPopulationCount>199</NoWeightPopulationCount>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>15000002</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
+    </Item>
+  </ModOp>
+ 
+  <ModOp Type="addNextSibling" GUID="130219">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000036</GUID>
+          <Name>Intermediate Moderate 3.3</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+				    <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition/>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>                
+                <CounterAmount>100</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+			    </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1988000030</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1988000032</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1988000034</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1988000037</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>
