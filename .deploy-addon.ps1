@@ -5,7 +5,7 @@ $root = "$env:USERPROFILE\Documents\Anno 1800\mods"
 $addonPath = Join-Path $root "AddOn"
 
 # Récupérer tous les dossiers directs sous AddOn
-$finalDirs = Get-ChildItem -Path $addonPath -Directory
+$finalDirs = Get-ChildItem -Path $addonPath -Directory -Exclude .vscode
 
 foreach ($dir in $finalDirs) {
     # Extraction des infos de hiérarchie

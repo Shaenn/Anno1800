@@ -1,0 +1,33 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Texte pour le produit -->
+    <Text>
+      <GUID>1988000000</GUID>
+      <Text>Qilaut</Text>
+    </Text>
+    <Text>
+      <GUID>1988000001</GUID>
+      <Text>Un instrument de percussion fait à partir de fourrure de carribou et de bois.</Text>
+    </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
+    <Text>
+      <GUID>1988000002</GUID>
+      <Text>Qilaut</Text>
+    </Text>
+    <Text>
+      <GUID>1988000003</GUID>
+      <Text>Produire des Qilauts à partir de fourrure de carribou et de bois.</Text>
+    </Text>
+
+    <!-- Texte pour le bâtiment -->
+    <Text>
+      <GUID>1988000004</GUID>
+      <Text>Fabricant de Qilauts</Text>
+    </Text>
+    <Text>
+      <GUID>1988000005</GUID>
+      <Text>Transforme la fourrure de carribou et le bois pour fabriquer un instrument de musique à percussion.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
