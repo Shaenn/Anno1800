@@ -1,0 +1,33 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1988000040</GUID>
+      <Text>Corde</Text>
+    </Text>
+    <Text>
+      <GUID>1988000041</GUID>
+      <Text>Liste des recettes pour les cordes</Text>
+    </Text>
+    <Text>
+      <GUID>1988000042</GUID>
+      <Text>Produire des cordes de la manière la plus étonnante qui soit, avec ou sans les technologies les plus récentes.</Text>
+    </Text>
+    <Text>
+      <GUID>1988000043</GUID>
+      <Text>Recette de corde</Text>
+    </Text>
+    <Text>
+      <GUID>1988000044</GUID>
+      <Text>Produire des cordes avec du coton du Nouveau Monde, du cuivre du fond des mines et le meilleur acier possible.</Text>
+    </Text>
+    <Text>
+      <GUID>1988000045</GUID>
+      <Text>Usine de cordes</Text>
+    </Text>
+    <Text>
+      <GUID>1988000046</GUID>
+      <Text>Chaine de production des cordes</Text>
+    </Text>
+  </ModOp>
+</ModOps>
+

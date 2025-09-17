@@ -1,0 +1,45 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID='132743'>
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000043</GUID>
+          <Name>Corde</Name>
+          <IconFilename>data/graphics/ui/icons/goods/icon_instrument_strings.png</IconFilename>
+        </Standard>
+        <Text />
+        <Recipe>
+          <RecipeBuilding>1988000045</RecipeBuilding>
+          <RecipeDescriptionText>1988000044</RecipeDescriptionText>
+          <RecipeImage>data/graphics/ui/recipebook/recipe_strings.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>70</PosX>
+              <PosY>10</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>360</PosX>
+              <PosY>300</PosY>
+              <UICirclePointer>NorthWest</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>220</PosX>
+              <PosY>220</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+        </Recipe>
+        <Locked/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID='1988000041' Path="/Values/RecipeList/Recipes">
+    <Item>
+      <Recipe>1988000043</Recipe>
+    </Item>
+  </ModOp>
+</ModOps>

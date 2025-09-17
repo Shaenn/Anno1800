@@ -1,0 +1,55 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="130219">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000047</GUID>
+          <Name>Intermediate Moderate 3.3</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition/>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>100</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1988000040</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1988000041</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1988000043</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1988000045</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1988000046</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>
