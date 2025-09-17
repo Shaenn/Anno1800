@@ -1,0 +1,14 @@
+{
+    "ModID": "musique-ancien-monde-flute",
+    "Version": "1.0",
+    "Category": {
+        "English": "AddOn",
+        "French": "AddOn"
+    },
+    "ModName": {
+        "English": "Musique - Ancien monde - Flûte",
+        "French": "Musique - Ancien monde - Flûte"
+    },
+    "CreatorName": "Shaenn",
+    "CreatorContact": "https://github.com/Shaenn/Anno1800"
+}

@@ -1,0 +1,43 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Texte pour le produit -->
+    <Text>
+      <GUID>1988000020</GUID>
+      <Text>Flûte</Text>
+    </Text>
+    <Text>
+      <GUID>1988000021</GUID>
+      <Text>Un instrument classique pour jouer des airs basiques.</Text>
+    </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
+    <Text>
+      <GUID>1988000022</GUID>
+      <Text>Flûte</Text>
+    </Text>
+    <Text>
+      <GUID>1988000023</GUID>
+      <Text>Produire des flûte à partir de bois.</Text>
+    </Text>
+
+    <!-- Texte pour le bâtiment -->
+    <Text>
+      <GUID>1988000024</GUID>
+      <Text>Atelier d'Artisan : Flûte</Text>
+    </Text>
+    <Text>
+      <GUID>1988000025</GUID>
+      <Text>Transforme le bois pour fabriquer une flûte.</Text>
+    </Text>
+
+    <!-- Texte pour la recette -->
+    <Text>
+      <GUID>1988000027</GUID>
+      <Text>Flûte</Text>
+    </Text>
+    <Text>
+      <GUID>1988000028</GUID>
+      <Text>Produire des flûtes avec cette recette.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
