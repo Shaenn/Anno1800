@@ -1,0 +1,33 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Texte pour le produit -->
+    <Text>
+      <GUID>1988000010</GUID>
+      <Text>Djembé</Text>
+    </Text>
+    <Text>
+      <GUID>1988000011</GUID>
+      <Text>Un instrument de percussion étonnant fait à partir de cuir de boeuf Sanga et de bois dur Wanza.</Text>
+    </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
+    <Text>
+      <GUID>1988000012</GUID>
+      <Text>Djembé</Text>
+    </Text>
+    <Text>
+      <GUID>1988000013</GUID>
+      <Text>Produire des Djembé à partir de cuir de boeuf Sanga et de bois dur Wanza.</Text>
+    </Text>
+
+    <!-- Texte pour le bâtiment -->
+    <Text>
+      <GUID>1988000014</GUID>
+      <Text>Fabricant de Djembés</Text>
+    </Text>
+    <Text>
+      <GUID>1988000015</GUID>
+      <Text>Transforme le cuir de boeuf Sanga et le bois dur Wanza pour fabriquer un instrument de musique à percussion étonnant.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

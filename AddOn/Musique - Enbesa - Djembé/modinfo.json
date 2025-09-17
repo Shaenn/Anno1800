@@ -1,0 +1,14 @@
+{
+    "ModID": "musique-enbesa-djembe",
+    "Version": "1.0",
+    "Category": {
+        "English": "AddOn",
+        "French": "AddOn"
+    },
+    "ModName": {
+        "English": "Musique - Enbesa - Djembé",
+        "French": "Musique - Enbesa - Djembé"
+    },
+    "CreatorName": "Shaenn",
+    "CreatorContact": "https://github.com/Shaenn/Anno1800"
+}
