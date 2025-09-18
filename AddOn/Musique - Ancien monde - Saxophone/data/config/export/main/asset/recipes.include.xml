@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="AddNextSibling" GUID="135416">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000033</GUID>
+          <Name>Saxophone</Name>
+          <IconFilename>data\graphics\icons\saxophone.png</IconFilename>
+        </Standard>
+        <Text />
+        <Recipe>
+          <RecipeBuilding>1988000035</RecipeBuilding>
+          <RecipeDescriptionText>1988000034</RecipeDescriptionText>
+          <RecipeImage>data\graphics\recipebook\recipebook_artisans_workshop_saxophone.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>50</PosX>
+              <PosY>60</PosY>
+              <UICirclePointer>East</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+        </Recipe>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>
