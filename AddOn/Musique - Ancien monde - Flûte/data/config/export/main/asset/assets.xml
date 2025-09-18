@@ -1,6 +1,6 @@
 <ModOps>
   <!-- Ajout du nouveau produit -->
-  <ModOp Type="addNextSibling" GUID='1010200'>
+  <ModOp Type="addNextSibling" GUID="1010200">
     <Asset>
       <Template>Product</Template>
       <Values>
@@ -29,7 +29,7 @@
           <ProductionRegions>
             <Item>
               <RegionType>Moderate</RegionType>
-				      </Item>
+            </Item>
           </ProductionRegions>
         </Product>
         <ExpeditionAttribute>
@@ -46,7 +46,7 @@
   </ModOp>
 
   <!-- Ajout du produit dans les listes de stockage (Affichage dans les marchés, réfectoire suivant les besoins de la population) -->
-  <ModOp Type="add" GUID='120055,120057,120058,120059,122362' Path="/Values/ProductStorageList/ProductList">
+  <ModOp Type="add" GUID="120055,120057,120058,120059,122362" Path="/Values/ProductStorageList/ProductList">
     <Item>
       <Product>1988000020</Product>
     </Item>
@@ -60,7 +60,7 @@
   </ModOp>
 
   <!-- Ajout du bâtiment pour produire -->
-  <ModOp Type="addNextSibling" GUID='1010284'>
+  <ModOp Type="addNextSibling" GUID="1010284">
     <Asset>
       <Template>Multifactory</Template>
       <Values>
@@ -221,17 +221,17 @@
         </Culture>
       </Values>
     </Asset>
-    </ModOp>
+  </ModOp>
 
   <!-- START ADD BUILDING TO ALL ITEMEFFECTTARGETPOOLS  -->
-  <ModOp Type="add" GUID='6000018,193856,193875,193778,190897' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <ModOp Type="add" GUID="6000018,193856,193875,193778,190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
     <Item>
       <GUID>1742008809</GUID>
     </Item>
   </ModOp> <!-- END ADD BUILDING TO ALL ITEMEFFECTTARGETPOOLS -->
 
   <!-- Ajout de la prévisualisation de la chaîne de production -->
-  <ModOp Type="addNextSibling" GUID='500091'>
+  <ModOp Type="addNextSibling" GUID="500091">
     <Asset>
       <Template>ProductionChain</Template>
       <Values>
@@ -249,12 +249,12 @@
             </Item>
           </Tier1>
         </ProductionChain>
-        <Locked />        
+        <Locked />
       </Values>
     </Asset>
   </ModOp>
 
-  <ModOp Type="AddNextSibling" GUID='135416'>
+  <ModOp Type="AddNextSibling" GUID="135416">
     <Asset>
       <Template>Recipe</Template>
       <Values>
@@ -283,21 +283,21 @@
   </ModOp>
 
   <!-- Ajout au menu de construction du bon tier de population après un bouton en particulier -->
-  <ModOp Type="addNextSibling" GUID='25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
+  <ModOp Type="addNextSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
     <Item>
       <Building>1988000022</Building>
     </Item>
   </ModOp>
 
   <!-- Ajout de la châine de production au menu de constructions des besoins -->
-  <ModOp Type="addNextSibling" GUID='500945' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
+  <ModOp Type="addNextSibling" GUID="500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
     <Item>
       <Building>1988000022</Building>
     </Item>
   </ModOp>
 
   <!-- Ajout du produit dans les besoins de la population -->
-  <ModOp Type="add" GUID='15000000,15000001,15000002,15000003,15000004,601379,114329,114330,15000005,15000006,5403' Path="/Values/PopulationLevel7/PopulationInputs/">
+  <ModOp Type="add" GUID="15000000,15000001,15000002,15000003,15000004,601379,114329,114330,15000005,15000006,5403" Path="/Values/PopulationLevel7/PopulationInputs/">
     <Item>
       <Product>1988000020</Product>
       <Amount>0.0001</Amount>
@@ -311,7 +311,7 @@
       </AdditionalGlobalUnlockRequirement>
     </Item>
   </ModOp>
-  <ModOp Type="add" GUID='112642,112643' Path="/Values/PopulationLevel7/PopulationInputs/">
+  <ModOp Type="add" GUID="112642,112643" Path="/Values/PopulationLevel7/PopulationInputs/">
     <Item>
       <Product>1988000020</Product>
       <Amount>0.00005</Amount>
@@ -320,12 +320,12 @@
       <FullWeightPopulationCount>400</FullWeightPopulationCount>
       <NoWeightPopulationCount>249</NoWeightPopulationCount>
       <AdditionalGlobalUnlockRequirement>
-          <Population>15000002</Population>
-          <MinPopulationAmount>1</MinPopulationAmount>
+        <Population>15000002</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
       </AdditionalGlobalUnlockRequirement>
     </Item>
   </ModOp>
-  <ModOp Type="add" GUID='118745' Path="/Values/PopulationLevel7/PopulationInputs/">
+  <ModOp Type="add" GUID="118745" Path="/Values/PopulationLevel7/PopulationInputs/">
     <Item>
       <Product>1988000020</Product>
       <Amount>0.0001</Amount>
@@ -338,7 +338,7 @@
         <MinPopulationAmount>1</MinPopulationAmount>
       </AdditionalGlobalUnlockRequirement>
     </Item>
-  </ModOp>  
+  </ModOp>
 
   <!-- START ADD TO WORKING CONDITIONS - Workers -->
   <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
@@ -347,7 +347,7 @@
     </Item>
   </ModOp>
   <!-- END ADD TO WORKING CONDITIONS - Workers -->
- 
+
   <ModOp Type="addNextSibling" GUID="130219">
     <Asset>
       <Template>Trigger</Template>
@@ -358,16 +358,16 @@
         </Standard>
         <Trigger>
           <TriggerCondition>
-				    <Template>ConditionPlayerCounter</Template>
+            <Template>ConditionPlayerCounter</Template>
             <Values>
               <Condition/>
               <ConditionPlayerCounter>
                 <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>15000002</Context>                
+                <Context>15000002</Context>
                 <CounterAmount>100</CounterAmount>
               </ConditionPlayerCounter>
             </Values>
-			    </TriggerCondition>
+          </TriggerCondition>
           <TriggerActions>
             <Item>
               <TriggerAction>

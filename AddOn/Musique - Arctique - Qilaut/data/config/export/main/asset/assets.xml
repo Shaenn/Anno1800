@@ -29,13 +29,13 @@
           <ProductionRegions>
             <Item>
               <RegionType>Arctic</RegionType>
-                <RequiredDLCs>
-                  <Item>
-                    <!--Anno 1800 DLC - The Passage-->
-                    <RequiredDLC>410042</RequiredDLC>							
-                  </Item>
-					      </RequiredDLCs>
-				      </Item>
+              <RequiredDLCs>
+                <Item>
+                  <!--Anno 1800 DLC - The Passage-->
+                  <RequiredDLC>410042</RequiredDLC>
+                </Item>
+              </RequiredDLCs>
+            </Item>
           </ProductionRegions>
         </Product>
         <ExpeditionAttribute>
@@ -145,9 +145,9 @@
           <IsMainFactory>1</IsMainFactory>
         </FactoryBase>
         <AmbientMoodProvider>
-			    <Murmur>Arctic_Farm</Murmur>
-			    <GlacierMurmur>Arctic_Farm</GlacierMurmur>
-		    </AmbientMoodProvider>
+          <Murmur>Arctic_Farm</Murmur>
+          <GlacierMurmur>Arctic_Farm</GlacierMurmur>
+        </AmbientMoodProvider>
         <Maintenance>
           <Maintenances>
             <Item>
@@ -232,8 +232,8 @@
       <FullWeightPopulationCount>400</FullWeightPopulationCount>
       <NoWeightPopulationCount>249</NoWeightPopulationCount>
       <AdditionalGlobalUnlockRequirement>
-          <Population>112642</Population>
-          <MinPopulationAmount>1</MinPopulationAmount>
+        <Population>112642</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
       </AdditionalGlobalUnlockRequirement>
     </Item>
   </ModOp>
@@ -246,13 +246,13 @@
       <FullWeightPopulationCount>400</FullWeightPopulationCount>
       <NoWeightPopulationCount>249</NoWeightPopulationCount>
       <AdditionalGlobalUnlockRequirement>
-          <Population>112643</Population>
-          <MinPopulationAmount>1</MinPopulationAmount>
+        <Population>112643</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
       </AdditionalGlobalUnlockRequirement>
     </Item>
   </ModOp>
 
- 
+
   <ModOp Type="addNextSibling" GUID="112645">
     <Asset>
       <Template>Trigger</Template>
@@ -263,7 +263,7 @@
         </Standard>
         <Trigger>
           <TriggerCondition>
-				    <Template>ConditionPlayerCounter</Template>
+            <Template>ConditionPlayerCounter</Template>
             <Values>
               <Condition/>
               <ConditionPlayerCounter>
@@ -272,7 +272,7 @@
                 <CounterAmount>100</CounterAmount>
               </ConditionPlayerCounter>
             </Values>
-			    </TriggerCondition>
+          </TriggerCondition>
           <TriggerActions>
             <Item>
               <TriggerAction>

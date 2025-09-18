@@ -36,4 +36,5 @@
 		"editor.defaultFormatter": "redhat.vscode-xml",
 		"editor.tabSize": 2
 	},
+	"files.trimFinalNewlines": true,
 }

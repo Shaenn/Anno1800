@@ -30,13 +30,13 @@
           <ProductionRegions>
             <Item>
               <RegionType>Africa</RegionType>
-                <RequiredDLCs>
-                  <Item>
-                    <!--Anno 1800 DLC - Land of Lions -->
-                    <RequiredDLC>410071</RequiredDLC>							
-                  </Item>
-					      </RequiredDLCs>
-				      </Item>
+              <RequiredDLCs>
+                <Item>
+                  <!--Anno 1800 DLC - Land of Lions -->
+                  <RequiredDLC>410071</RequiredDLC>
+                </Item>
+              </RequiredDLCs>
+            </Item>
           </ProductionRegions>
         </Product>
         <ExpeditionAttribute>
@@ -262,7 +262,7 @@
         <MinPopulationAmount>1</MinPopulationAmount>
       </AdditionalGlobalUnlockRequirement>
     </Item>
-  </ModOp>  
+  </ModOp>
 
   <!-- START ADD TO WORKING CONDITIONS - Workers -->
   <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
@@ -271,7 +271,7 @@
     </Item>
   </ModOp>
   <!-- END ADD TO WORKING CONDITIONS - Workers -->
- 
+
   <ModOp Type="addNextSibling" GUID="114332">
     <Asset>
       <Template>Trigger</Template>
@@ -282,17 +282,17 @@
         </Standard>
         <Trigger>
           <TriggerCondition>
-				    <Template>ConditionPlayerCounter</Template>
+            <Template>ConditionPlayerCounter</Template>
             <Values>
               <Condition/>
               <ConditionPlayerCounter>
                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                 <!--Africa Population 1-->
-                <Context>114329</Context>                
+                <Context>114329</Context>
                 <CounterAmount>100</CounterAmount>
               </ConditionPlayerCounter>
             </Values>
-			    </TriggerCondition>
+          </TriggerCondition>
           <TriggerActions>
             <Item>
               <TriggerAction>
