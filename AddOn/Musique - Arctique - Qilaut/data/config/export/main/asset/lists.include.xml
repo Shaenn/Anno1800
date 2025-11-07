@@ -1,0 +1,135 @@
+<!-- ProductStorageList 
+4269 - AllArcticMails 
+4254 - AllColonyMails 
+745 - AllModerateMails 
+120060 - EmptyStorageList 
+120061 - StandardCoalStoneStorageList 
+122362 - StandardMarketplaceAfricaStorageList 
+120059 - StandardMarketplaceArcticStorageList 
+120058 - StandardMarketplaceColonyStorageList 
+120057 - StandardMarketplaceModerateStorageList 
+120056 - StandardOilHarborStorageList 
+120055 - StandardProductStorageList -->
+
+<!-- ProductList 
+502085 - AfricaSessionGoods 
+502076 - AgriculturalGoods_Africa 
+502039 - AgriculturalGoods_Arctic 
+502037 - AgriculturalGoods_Europe 
+501959 - AgriculturalGoods_OLD 
+502038 - AgriculturalGoods_SouthAmerica 
+502083 - AllAgricultureGoods_AfricaSort 
+502042 - AllAgricultureGoods_ArcticSort 
+502040 - AllAgricultureGoods_EuropeSort 
+502041 - AllAgricultureGoods_SouthAmericaSort 
+502081 - AllConsumerGoods_AfricaSort 
+502035 - AllConsumerGoods_ArcticSort 
+502031 - AllConsumerGoods_EuropeSort 
+502034 - AllConsumerGoods_SouthAmericaSort 
+501954 - AllGoods_OLD 
+502078 - AllGoodsUnlock_AfricaSort 
+502080 - AllGoodsUnlock_AfricaSort_WithoutOil 
+502028 - AllGoodsUnlock_ArcticSort 
+502068 - AllGoodsUnlock_ArcticSort_WithoutOil 
+502016 - AllGoodsUnlock_EuropeSort 
+502065 - AllGoodsUnlock_EuropeSort_WithoutOil 
+502220 - AllGoodsUnlock_EuropeSort_WithoutOil_WithoutScrap 
+502027 - AllGoodsUnlock_SouthAmericaSort 
+502067 - AllGoodsUnlock_SouthAmericaSort_WithoutOil 
+501955 - AllGoodsWithoutStrategicGoods 
+502084 - AllIntermediateGoods_AfricaSort 
+502048 - AllIntermediateGoods_ArcticSort 
+502046 - AllIntermediateGoods_EuropeSort 
+502047 - AllIntermediateGoods_SouthAmericaSort 
+502082 - AllRawMaterials_AfricaSort 
+502054 - AllRawMaterials_ArcticSort 
+502052 - AllRawMaterials_EuropeSort 
+502053 - AllRawMaterials_SouthAmericaSort 
+502014 - ArcticSessionGoods 
+501997 - ArtisansConsumerGoods 
+502019 - ArtisanUnlockGoods 
+502006 - ArtisanWorkforceGoods 
+7398 - ArtistaConsumerGoods 
+7397 - ArtistaUnlockGoods 
+5402 - ArtistaWorkforceList 
+501993 - BasicNeedGoods 
+502235 - Chanteuse_ImportGoods 
+501957 - ConstructionMaterials 
+502168 - ConstructionMaterials_AfricaSort 
+502221 - ConstructionMaterials_WithoutScrap 
+501956 - ConsumerGoods_OLD 
+502242 - Docklands_ImporterGoods 
+502074 - ElderConsumerGoods 
+502072 - ElderUnlockGoods 
+502070 - ElderWorkforceGoods 
+501998 - EngineerConsumerGoods 
+502020 - EngineerUnlockGoods 
+502066 - EngineerUnlockGoods_WithoutOil 
+502007 - EngineerWorkforceGoods 
+502002 - ExplorerConsumerGoods 
+502024 - ExplorerUnlockGoods 
+502010 - ExplorerWorkforceGoods 
+501995 - FarmerConsumerGoods 
+502017 - FarmerUnlockGoods 
+502004 - FarmerWorkforceGoods 
+502234 - Feedl_ImportGoods 
+502240 - Ganymedia_ImportGoods 
+501994 - HeatGoods 
+502077 - IntermediateGoods_Africa 
+502045 - IntermediateGoods_Arctic 
+502043 - IntermediateGoods_Europe 
+501960 - IntermediateGoods_OLD 
+502044 - IntermediateGoods_SouthAmerica 
+501999 - InvestorConsumerGoods 
+502021 - InvestorUnlockGoods 
+502000 - JornaleroConsumerGoods 
+502022 - JornaleroUnlockGoods 
+502008 - JornaleroWorkforceGoods 
+502238 - Kitea_ImportGoods 
+501992 - LuxuryGoods 
+4835 - MailGoods 
+1062 - MailsFilter 
+502012 - ModerateSessionGoods 
+502001 - ObreroConsumerGoods 
+502023 - ObreroUnlockGoods 
+502009 - ObreroWorkforceGoods 
+502237 - OldLevants_ImportGoods 
+502239 - PromistTrust_ImportGoods 
+502236 - Qinsa_ImportGoods 
+502075 - RawMaterials_Africa 
+502051 - RawMaterials_Arctic 
+502049 - RawMaterials_Europe 
+501958 - RawMaterials_OLD 
+502050 - RawMaterials_SouthAmerica 
+502133 - ScholarConsumerGoods 
+502134 - ScholarUnlockGoods 
+502175 - ScrapForInKontorFilter 
+502073 - ShepherdConsumerGoods 
+502071 - ShepherdUnlockGoods 
+502069 - ShepherdWorkforceGoods 
+502013 - SouthAmericaSessionGoods 
+501961 - StrategicGoods 
+502233 - Tattershire_ImportGoods 
+502003 - TechnicianConsumerGoods 
+502025 - TechnicianUnlockGoods 
+502219 - TechnicianUnlockGoods_WithoutScrap 
+502011 - TechnicianWorkforceGoods 
+502309 - TouristConsumerGoods 
+502308 - TouristUnlockGoods 
+501996 - WorkerConsumerGoods 
+502018 - WorkerUnlockGoods 
+502005 - WorkerWorkforceGoods -->
+
+<ModOps>
+  <ModOp Type="add" GUID='120055,120059' Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>1988000000</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="502014,502035" Path="/Values/ProductList/List">
+    <Item>
+      <Product>1988000000</Product>
+    </Item>
+  </ModOp>
+</ModOps>
