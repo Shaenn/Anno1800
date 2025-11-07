@@ -5,37 +5,6 @@
 		<Name />
 		<Groups>
 			<i>
-				<Name>drivers</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>205</Id>
-				<Dummies>
-					<i>
-						<Name>drivers_0</Name>
-						<hasValue>1</hasValue>
-						<Id>282</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.982722</w>
-							<x>-0.000000</x>
-							<y>0.185086</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Position>
-							<x>2.092116</x>
-							<y>0.000000</y>
-							<z>-1.351986</z>
-						</Position>
-						<RotationY>5.910867</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
 				<Name>group of pigeons</Name>
 				<Groups />
 				<hasValue>1</hasValue>
@@ -460,9 +429,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>1.196246</x>
+							<x>1.253739</x>
 							<y>0.000000</y>
-							<z>-1.018408</z>
+							<z>-0.652215</z>
 						</Position>
 						<RotationY>3.201195</RotationY>
 						<Extents>
@@ -485,7 +454,7 @@
 						<Position>
 							<x>1.823804</x>
 							<y>0.000000</y>
-							<z>-0.617681</z>
+							<z>-0.043197</z>
 						</Position>
 						<RotationY>6.273367</RotationY>
 						<Extents>
@@ -506,9 +475,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.716181</x>
+							<x>2.826751</x>
 							<y>0.000000</y>
-							<z>-1.317417</z>
+							<z>-1.170830</z>
 						</Position>
 						<RotationY>1.987317</RotationY>
 						<Extents>
@@ -537,9 +506,32 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-3.030343</x>
+							<x>1.970100</x>
 							<y>0.000000</y>
-							<z>-1.900007</z>
+							<z>-0.770916</z>
+						</Position>
+						<RotationY>0.609211</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>sweeper_0</Name>
+						<hasValue>1</hasValue>
+						<Id>319</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.953965</w>
+							<x>0.000000</x>
+							<y>-0.299917</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>-2.859989</x>
+							<y>0.000000</y>
+							<z>-1.777359</z>
 						</Position>
 						<RotationY>0.609211</RotationY>
 						<Extents>
@@ -568,9 +560,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>2.177103</x>
+							<x>2.377204</x>
 							<y>0.000000</y>
-							<z>-0.835055</z>
+							<z>-1.306801</z>
 						</Position>
 						<RotationY>2.743849</RotationY>
 						<Extents>
@@ -591,9 +583,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-0.750834</x>
+							<x>-2.723074</x>
 							<y>0.000000</y>
-							<z>2.154626</z>
+							<z>1.811750</z>
 						</Position>
 						<RotationY>3.206469</RotationY>
 						<Extents>
@@ -614,9 +606,9 @@
 							<z>0.000000</z>
 						</Orientation>
 						<Position>
-							<x>-1.015504</x>
+							<x>-2.987745</x>
 							<y>0.000000</y>
-							<z>2.158052</z>
+							<z>1.815176</z>
 						</Position>
 						<RotationY>0.000000</RotationY>
 						<Extents>

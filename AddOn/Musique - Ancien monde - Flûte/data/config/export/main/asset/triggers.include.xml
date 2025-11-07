@@ -4,7 +4,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1988000026</GUID>
+          <GUID>1988000027</GUID>
           <Name>Intermediate Moderate 3.3</Name>
         </Standard>
         <Trigger>
@@ -30,13 +30,13 @@
                         <Asset>1988000020</Asset>
                       </Item>
                       <Item>
-                        <Asset>1988000022</Asset>
+                        <Asset>1988000023</Asset>
                       </Item>
                       <Item>
-                        <Asset>1988000024</Asset>
+                        <Asset>1988000025</Asset>
                       </Item>
                       <Item>
-                        <Asset>1988000027</Asset>
+                        <Asset>1988000026</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>

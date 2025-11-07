@@ -1,26 +1,31 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-    <!-- Texte pour le produit -->
+    <!-- Nom du produit -->
     <Text>
       <GUID>1988000030</GUID>
       <Text>Saxophone</Text>
     </Text>
 
+    <!-- Nom de la recette -->
     <Text>
       <GUID>1988000033</GUID>
-      <Text>Recette de Saxophone</Text>
+      <Text>Plan de fabrication d'un saxophone</Text>
     </Text>
     <Text>
       <GUID>1988000034</GUID>
-      <Text>Produire des saxophones avec cette recette.</Text>
+      <Text>Produire des saxophones à partir de laiton.</Text>
     </Text>
+
+    <!-- Nom du bâtiment bâtiment -->
     <Text>
       <GUID>1988000035</GUID>
       <Text>Atelier d'Artisan : Saxophone</Text>
     </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
     <Text>
       <GUID>1988000036</GUID>
-      <Text>Chaine de production des saxophones</Text>
+      <Text>Saxophones</Text>
     </Text>
   </ModOp>
 </ModOps>

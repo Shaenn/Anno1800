@@ -4,10 +4,9 @@
       <Template>Multifactory</Template>
       <Values>
         <Standard>
-          <GUID>1988000024</GUID>
+          <GUID>1988000025</GUID>
           <Name>Atelier d'Artisan : Flûte</Name>
           <IconFilename>data\graphics\icons\flute.png</IconFilename>
-          <InfoDescription>1988000025</InfoDescription>
         </Standard>
         <Building>
           <BuildingCategoryName>132773</BuildingCategoryName>
@@ -18,7 +17,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data\graphics\buildings\production\manufactory\manufactory_08.cfg</Filename>
+              <Filename>data\graphics\buildings\production\manufactory\manufactory_05.cfg</Filename>
             </Item>
           </Variations>
           <Skins>

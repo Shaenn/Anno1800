@@ -4,14 +4,14 @@
       <Template>Recipe</Template>
       <Values>
         <Standard>
-          <GUID>1988000027</GUID>
+          <GUID>1988000023</GUID>
           <Name>Flûte</Name>
           <IconFilename>data\graphics\icons\flute.png</IconFilename>
         </Standard>
         <Text />
         <Recipe>
-          <RecipeBuilding>1988000024</RecipeBuilding>
-          <RecipeDescriptionText>1988000028</RecipeDescriptionText>
+          <RecipeBuilding>1988000025</RecipeBuilding>
+          <RecipeDescriptionText>1988000024</RecipeDescriptionText>
           <RecipeImage>data\graphics\recipebook\recipebook_artisans_workshop_flute.png</RecipeImage>
           <RecipeIngredientUIData>
             <Item>

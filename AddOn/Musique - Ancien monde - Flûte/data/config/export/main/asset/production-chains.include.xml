@@ -26,13 +26,12 @@
       <Template>ProductionChain</Template>
       <Values>
         <Standard>
-          <GUID>1988000022</GUID>
+          <GUID>1988000026</GUID>
           <Name>Flûte</Name>
           <IconFilename>data/graphics/icons/flute.png</IconFilename>
-          <InfoDescription>1988000023</InfoDescription>
         </Standard>
         <ProductionChain>
-          <Building>1988000024</Building>
+          <Building>1988000025</Building>
           <Tier1>
             <Item>
               <Building>1010266</Building>
@@ -46,14 +45,13 @@
 
   <ModOp Type="addNextSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
     <Item>
-      <Building>1988000022</Building>
+      <Building>1988000026</Building>
     </Item>
   </ModOp>
 
-  <!-- Ajout de la châine de production au menu de constructions des besoins -->
   <ModOp Type="addNextSibling" GUID="500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
     <Item>
-      <Building>1988000022</Building>
+      <Building>1988000026</Building>
     </Item>
   </ModOp>
 </ModOps>
