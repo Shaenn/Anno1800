@@ -1,0 +1,59 @@
+<!-- Ajout au menu de construction du bon tier de population  
+114553 - africa construction menu 1 (tier) 
+114554 - africa construction menu 2 (tier) 
+112790 - arctic construction menu 1 (tier) 
+112791 - arctic construction menu 2 (tier) 
+25000189 - moderate construction menu 1 (tier) 
+25000190 - moderate construction menu 2 (tier) 
+25000191 - moderate construction menu 3 (tier) 
+25000192 - moderate construction menu 4 (tier) 
+500447 - moderate construction menu 5 (tier) 
+502107 - moderate construction menu Scholars (tier) 
+132779 - TourismConstructionMenu 
+25000193 - sa construction menu 1 (tier) 
+25000194 - sa construction menu 2 (tier) -->
+
+<!-- Ajout au menu dans les besoins des sessions 
+114553	africa construction menu 1 (tier) 
+119024	africa construction menu needs (category) 
+116344	arctic construction menu needs (category) 
+500945	moderate construction menu needs (category) 
+500950	sa construction menu needs (category) -->
+
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="500091">
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000022</GUID>
+          <Name>Flûte</Name>
+          <IconFilename>data/graphics/icons/flute.png</IconFilename>
+          <InfoDescription>1988000023</InfoDescription>
+        </Standard>
+        <ProductionChain>
+          <Building>1988000024</Building>
+          <Tier1>
+            <Item>
+              <Building>1010266</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
+    <Item>
+      <Building>1988000022</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Ajout de la châine de production au menu de constructions des besoins -->
+  <ModOp Type="addNextSibling" GUID="500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
+    <Item>
+      <Building>1988000022</Building>
+    </Item>
+  </ModOp>
+</ModOps>

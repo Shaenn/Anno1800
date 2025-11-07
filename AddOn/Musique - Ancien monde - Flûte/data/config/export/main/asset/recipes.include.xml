@@ -1,0 +1,29 @@
+<ModOps>
+  <ModOp Type="AddNextSibling" GUID="135416">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000027</GUID>
+          <Name>Flûte</Name>
+          <IconFilename>data\graphics\icons\flute.png</IconFilename>
+        </Standard>
+        <Text />
+        <Recipe>
+          <RecipeBuilding>1988000024</RecipeBuilding>
+          <RecipeDescriptionText>1988000028</RecipeDescriptionText>
+          <RecipeImage>data\graphics\recipebook\recipebook_artisans_workshop_flute.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>50</PosX>
+              <PosY>60</PosY>
+              <UICirclePointer>East</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+        </Recipe>
+        <Locked/>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>
