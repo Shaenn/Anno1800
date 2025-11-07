@@ -1,0 +1,42 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Nom du produit -->
+    <Text>
+      <GUID>1988000050</GUID>
+      <Text>Harpe</Text>
+    </Text>
+
+    <!-- Nom de la liste des plans du bâtiment -->
+    <Text>
+      <GUID>1988000051</GUID>
+      <Text>Plans de l'usine</Text>
+    </Text>
+    <!-- Description générale de l'usine dans le livre des plans -->
+    <Text>
+      <GUID>1988000052</GUID>
+      <Text>Cette usine permet de produire des harpes de qualité.</Text>
+    </Text>
+
+    <!-- Nom de la recette -->
+    <Text>
+      <GUID>1988000053</GUID>
+      <Text>Harpe</Text>
+    </Text>
+    <Text>
+      <GUID>1988000054</GUID>
+      <Text>Produire des harpes à partir d'acier, d'or, de cordes et de bois de wanza.</Text>
+    </Text>
+
+    <!-- Nom du bâtiment bâtiment -->
+    <Text>
+      <GUID>1988000055</GUID>
+      <Text>Atelier d'Artisan : Harpe</Text>
+    </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
+    <Text>
+      <GUID>1988000056</GUID>
+      <Text>Harpes</Text>
+    </Text>
+  </ModOp>
+</ModOps>

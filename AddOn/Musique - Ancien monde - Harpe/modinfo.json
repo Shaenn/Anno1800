@@ -1,0 +1,14 @@
+{
+	"ModID": "musique-ancien-monde-harpe",
+	"Version": "1.0",
+	"Category": {
+		"English": "AddOn",
+		"French": "AddOn"
+	},
+	"ModName": {
+		"English": "Musique - Ancien monde - Harpe",
+		"French": "Musique - Ancien monde - Harpe"
+	},
+	"CreatorName": "Shaenn",
+	"CreatorContact": "https://github.com/Shaenn/Anno1800"
+}

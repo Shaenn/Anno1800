@@ -1,0 +1,57 @@
+<!-- 11702 - Product Category Ressource 
+11703 - Product Category Bien intermédiaire 
+11704 - Product Category Besoin fondamental 
+11705 - Product Category Besoin de luxe 
+11706 - Product Category Besoin de luxe - NotUsed 
+11707 - Product Category Matériau de construction 
+11708 - Product Category Public Besoin fondamental 
+11709 - Product Category Public Besoin de luxe 
+11710 - Product Category Public Besoin de luxe - NotUsed 
+134777 - Product Category Besoin touristique 
+135875 - Product Category Besoin commercial -->
+
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000050</GUID>
+          <Name>Harpe</Name>
+          <IconFilename>data/graphics/icons/harpe.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Harpe</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11705</ProductCategory>
+          <BasePrice>150</BasePrice>
+          <CivLevel>3</CivLevel>
+          <!-- Indique dans quelles régions le produit peut être demandé. -->
+          <AssociatedRegion>Moderate;Colony01;Arctic;Africa</AssociatedRegion>
+          <!-- Indique dans quelles régions le produit peut être produit. -->
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>20</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,49 @@
+<ModOps>
+  <ModOp Type="AddNextSibling" GUID="135416">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000053</GUID>
+          <Name>Harpe</Name>
+          <IconFilename>data\graphics\icons\harpe.png</IconFilename>
+        </Standard>
+        <Text />
+        <Recipe>
+          <RecipeBuilding>1988000055</RecipeBuilding>
+          <RecipeDescriptionText>1988000054</RecipeDescriptionText>
+          <RecipeImage>data\graphics\recipebook\recipebook_artisans_workshop_harpe.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>370</PosX>
+              <PosY>200</PosY>
+              <UICirclePointer>West</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>320</PosX>
+              <PosY>360</PosY>
+              <UICirclePointer>NorthWest</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>30</PosX>
+              <PosY>70</PosY>
+              <UICirclePointer>East</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>300</PosX>
+              <PosY>10</PosY>
+              <UICirclePointer>SouthWest</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+        </Recipe>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID='1988000051' Path="/Values/RecipeList/Recipes">
+    <Item>
+      <Recipe>1988000053</Recipe>
+    </Item>
+  </ModOp>
+</ModOps>
