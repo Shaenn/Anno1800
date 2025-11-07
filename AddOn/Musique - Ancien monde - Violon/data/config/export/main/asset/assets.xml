@@ -1,0 +1,47 @@
+<ModOps>
+  <Include File="./populations.include.xml" />
+
+  <!-- Ajout d'un nouvel élément visuel sur la recette -->
+  <ModOp Type="add" GUID='135417' Path="/Values/Recipe/RecipeIngredientUIData/">
+    <Item>
+      <PosX>330</PosX>
+      <PosY>0</PosY>
+      <UICirclePointer>SouthWest</UICirclePointer>
+    </Item>
+  </ModOp>
+
+  <!-- Modification de la chaîne de production des violons pour prendre en compte les cordes -->
+  <ModOp Type="add" GUID='137598' Path="/Values/ProductionChain/Tier1/">
+    <Item>
+      <Building>1988000045</Building>
+      <Tier2>
+        <Item>
+          <Building>1010331</Building>
+        </Item>
+        <Item>
+          <Building>1010308</Building>
+        </Item>
+        <Item>
+          <Building>1010297</Building>
+          <Tier3>
+            <Item>
+              <Building>1010305</Building>
+            </Item>
+            <Item>
+              <Building>1010304</Building>
+            </Item>
+          </Tier3>
+        </Item>
+      </Tier2>
+    </Item>
+  </ModOp>
+
+  <!-- Modification du bâtiment pour prendre en entrée des cordes -->
+  <ModOp Type="add" GUID='135397' Path="/Values/FactoryBase/FactoryInputs/">
+    <Item>
+      <Product>1988000040</Product>
+      <Amount>1</Amount>
+      <StorageAmount>4</StorageAmount>
+    </Item>
+  </ModOp>
+</ModOps>

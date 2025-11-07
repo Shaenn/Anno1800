@@ -24,6 +24,7 @@ Améliore les besoins en bonheur des investisseurs.
 |Instruments|Fermier|Ouvrier|Artisan|Ingénieur|Investisseur|Erudit|Touristes|Jornalero|Obrero|Artiste|Explorateur|Technicien|Berger|Ancien| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---| 
 |Flûte|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅ 
+|Violon|❌|✅|✅|✅|✅|✅|✅|❌|❌|❌|❌|❌|❌|❌ 
 |Saxophone|❌|❌|✅|✅|✅|✅|✅|❌|❌|❌|❌|❌|❌|❌ 
 |Harpe|❌|❌|❌|✅|✅|✅|✅|❌|❌|❌|❌|❌|❌|❌ 
 |Piano|❌|❌|❌|❌|✅|✅|✅|❌|❌|❌|❌|❌|❌|❌ 

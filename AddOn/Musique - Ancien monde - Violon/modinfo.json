@@ -1,0 +1,14 @@
+{
+	"ModID": "musique-ancien-monde-violon",
+	"Version": "1.0",
+	"Category": {
+		"English": "AddOn",
+		"French": "AddOn"
+	},
+	"ModName": {
+		"English": "Musique - Ancien monde - Violon",
+		"French": "Musique - Ancien monde - Violon"
+	},
+	"CreatorName": "Shaenn",
+	"CreatorContact": "https://github.com/Shaenn/Anno1800"
+}
