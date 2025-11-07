@@ -1,0 +1,21 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID='132743'>
+    <Asset>
+      <Template>RecipeList</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000021</GUID>
+          <Name>Plans de l'usine</Name>
+          <IconFilename>data/graphics/icons/flute.png</IconFilename>
+        </Standard>
+        <RecipeList>
+          <Recipes />
+          <RecipeListType>AssemblyLine</RecipeListType>
+          <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeListMoodImage>
+          <RecipeListDescription>1988000022</RecipeListDescription>
+        </RecipeList>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

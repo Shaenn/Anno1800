@@ -6,10 +6,21 @@
       <Text>Saxophone</Text>
     </Text>
 
+    <!-- Nom de la liste des plans du bâtiment -->
+    <Text>
+      <GUID>1988000031</GUID>
+      <Text>Plans de l'usine</Text>
+    </Text>
+    <!-- Description générale de l'usine dans le livre des plans -->
+    <Text>
+      <GUID>1988000032</GUID>
+      <Text>Cette usine permet de produire des saxophones de qualité.</Text>
+    </Text>
+
     <!-- Nom de la recette -->
     <Text>
       <GUID>1988000033</GUID>
-      <Text>Plan de fabrication d'un saxophone</Text>
+      <Text>Saxophone</Text>
     </Text>
     <Text>
       <GUID>1988000034</GUID>

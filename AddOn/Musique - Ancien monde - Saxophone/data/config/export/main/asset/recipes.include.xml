@@ -25,4 +25,10 @@
       </Values>
     </Asset>
   </ModOp>
+
+  <ModOp Type="add" GUID='1988000031' Path="/Values/RecipeList/Recipes">
+    <Item>
+      <Recipe>1988000033</Recipe>
+    </Item>
+  </ModOp>
 </ModOps>

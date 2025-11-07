@@ -6,10 +6,21 @@
       <Text>Flûte</Text>
     </Text>
 
+    <!-- Nom de la liste des plans du bâtiment -->
+    <Text>
+      <GUID>1988000021</GUID>
+      <Text>Plans de l'usine</Text>
+    </Text>
+    <!-- Description générale de l'usine dans le livre des plans -->
+    <Text>
+      <GUID>1988000022</GUID>
+      <Text>Cette usine permet de produire des flûtes de qualité.</Text>
+    </Text>
+
     <!-- Nom de la recette -->
     <Text>
       <GUID>1988000023</GUID>
-      <Text>Plan de fabrication d'une flûte</Text>
+      <Text>Flûte</Text>
     </Text>
     <Text>
       <GUID>1988000024</GUID>

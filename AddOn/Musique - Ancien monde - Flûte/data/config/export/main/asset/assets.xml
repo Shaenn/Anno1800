@@ -1,6 +1,7 @@
 <ModOps>
   <Include File="./produits.include.xml" />
   <Include File="./lists.include.xml" />
+  <Include File="./recipe-lists.include.xml" />
   <Include File="./recipes.include.xml" />
   <Include File="./buildings.include.xml" />
   <Include File="./production-chains.include.xml" />
