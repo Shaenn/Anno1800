@@ -1,25 +1,21 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-    <!-- Texte pour le produit -->
+    <!-- Nom du produit -->
     <Text>
       <GUID>1988000000</GUID>
       <Text>Qilaut</Text>
     </Text>
 
-    <!-- Texte pour le bouton dans le menu de construction -->
-    <Text>
-      <GUID>1988000002</GUID>
-      <Text>Qilaut</Text>
-    </Text>
-
-    <!-- Texte pour le bâtiment -->
+    <!-- Nom du bâtiment bâtiment -->
     <Text>
       <GUID>1988000005</GUID>
       <Text>Fabricant de Qilauts</Text>
     </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
     <Text>
       <GUID>1988000006</GUID>
-      <Text>Transforme la fourrure de carribou et le bois pour fabriquer un instrument de musique à percussion.</Text>
+      <Text>Qilauts</Text>
     </Text>
   </ModOp>
 </ModOps>
