@@ -1,0 +1,44 @@
+<ModOps>
+  <ModOp Type="add" GUID='114329' Path="/Values/PopulationLevel7/PopulationInputs/">
+    <Item>
+      <Product>1988000010</Product>
+      <Amount>0.0001</Amount>
+      <HappinessValue>5</HappinessValue>
+      <MoneyValue>20</MoneyValue>
+      <FullWeightPopulationCount>300</FullWeightPopulationCount>
+      <NoWeightPopulationCount>199</NoWeightPopulationCount>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>114329</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='114330' Path="/Values/PopulationLevel7/PopulationInputs/">
+    <Item>
+      <Product>1988000010</Product>
+      <Amount>0.0001</Amount>
+      <HappinessValue>10</HappinessValue>
+      <MoneyValue>40</MoneyValue>
+      <FullWeightPopulationCount>300</FullWeightPopulationCount>
+      <NoWeightPopulationCount>199</NoWeightPopulationCount>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>114330</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='118745' Path="/Values/PopulationLevel7/PopulationInputs/">
+    <Item>
+      <Product>1988000010</Product>
+      <Amount>0.0001</Amount>
+      <HappinessValue>10</HappinessValue>
+      <ResearchValue>10</ResearchValue>
+      <FullWeightPopulationCount>300</FullWeightPopulationCount>
+      <NoWeightPopulationCount>199</NoWeightPopulationCount>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>118745</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
+    </Item>
+  </ModOp>
+</ModOps>
