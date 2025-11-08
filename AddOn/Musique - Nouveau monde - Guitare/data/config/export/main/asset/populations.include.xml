@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" GUID="15000006,5403" Path="/Values/PopulationLevel7/PopulationInputs/">
+    <Item>
+      <Product>1988000070</Product>
+      <Amount>0.0001</Amount>
+      <HappinessValue>5</HappinessValue>
+      <MoneyValue>20</MoneyValue>
+      <FullWeightPopulationCount>300</FullWeightPopulationCount>
+      <NoWeightPopulationCount>199</NoWeightPopulationCount>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>15000006</Population>
+        <MinPopulationAmount>1</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
+    </Item>
+  </ModOp>
+</ModOps>

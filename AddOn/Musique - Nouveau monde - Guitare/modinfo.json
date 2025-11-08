@@ -1,0 +1,14 @@
+{
+	"ModID": "musique-nouveau-monde-guitare",
+	"Version": "1.0",
+	"Category": {
+		"English": "AddOn",
+		"French": "AddOn"
+	},
+	"ModName": {
+		"English": "Musique - Nouveau monde - Guitare",
+		"French": "Musique - Nouveau monde - Guitare"
+	},
+	"CreatorName": "Shaenn",
+	"CreatorContact": "https://github.com/Shaenn/Anno1800"
+}

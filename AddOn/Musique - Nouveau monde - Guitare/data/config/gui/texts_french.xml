@@ -1,0 +1,42 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Nom du produit -->
+    <Text>
+      <GUID>1988000070</GUID>
+      <Text>Guitare</Text>
+    </Text>
+
+    <!-- Nom de la liste des plans du bâtiment -->
+    <Text>
+      <GUID>1988000071</GUID>
+      <Text>Plans de l'usine</Text>
+    </Text>
+    <!-- Description générale de l'usine dans le livre des plans -->
+    <Text>
+      <GUID>1988000072</GUID>
+      <Text>Cette usine permet de produire des guitares de qualité.</Text>
+    </Text>
+
+    <!-- Nom de la recette -->
+    <Text>
+      <GUID>1988000073</GUID>
+      <Text>Guitare</Text>
+    </Text>
+    <Text>
+      <GUID>1988000074</GUID>
+      <Text>Produire des guitares à partir d'acier, d'or, de cordes et de bois de wanza.</Text>
+    </Text>
+
+    <!-- Nom du bâtiment bâtiment -->
+    <Text>
+      <GUID>1988000075</GUID>
+      <Text>Atelier d'Artisan : Guitare</Text>
+    </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
+    <Text>
+      <GUID>1988000076</GUID>
+      <Text>Guitares</Text>
+    </Text>
+  </ModOp>
+</ModOps>

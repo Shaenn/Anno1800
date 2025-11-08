@@ -1,0 +1,49 @@
+<ModOps>
+  <ModOp Type="AddNextSibling" GUID="135416">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000073</GUID>
+          <Name>Guitare</Name>
+          <IconFilename>data\graphics\icons\guitare.png</IconFilename>
+        </Standard>
+        <Text />
+        <Recipe>
+          <RecipeBuilding>1988000075</RecipeBuilding>
+          <RecipeDescriptionText>1988000074</RecipeDescriptionText>
+          <RecipeImage>data\graphics\recipebook\recipebook_artisans_workshop_guitare.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>30</PosX>
+              <PosY>160</PosY>
+              <UICirclePointer>East</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>210</PosX>
+              <PosY>40</PosY>
+              <UICirclePointer>South</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>100</PosX>
+              <PosY>340</PosY>
+              <UICirclePointer>NorthEast</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>360</PosX>
+              <PosY>130</PosY>
+              <UICirclePointer>SouthWest</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+        </Recipe>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID='1988000071' Path="/Values/RecipeList/Recipes">
+    <Item>
+      <Recipe>1988000073</Recipe>
+    </Item>
+  </ModOp>
+</ModOps>
