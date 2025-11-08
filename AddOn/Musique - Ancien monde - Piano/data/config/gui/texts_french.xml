@@ -1,0 +1,42 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Nom du produit -->
+    <Text>
+      <GUID>1988000060</GUID>
+      <Text>Piano</Text>
+    </Text>
+
+    <!-- Nom de la liste des plans du bâtiment -->
+    <Text>
+      <GUID>1988000061</GUID>
+      <Text>Plans de l'usine</Text>
+    </Text>
+    <!-- Description générale de l'usine dans le livre des plans -->
+    <Text>
+      <GUID>1988000062</GUID>
+      <Text>Cette usine permet de produire des pianos de qualité.</Text>
+    </Text>
+
+    <!-- Nom de la recette -->
+    <Text>
+      <GUID>1988000063</GUID>
+      <Text>Piano</Text>
+    </Text>
+    <Text>
+      <GUID>1988000064</GUID>
+      <Text>Produire des piano à partir d'acier, d'or, de cordes et de bois de wanza.</Text>
+    </Text>
+
+    <!-- Nom du bâtiment bâtiment -->
+    <Text>
+      <GUID>1988000065</GUID>
+      <Text>Atelier d'Artisan : Piano</Text>
+    </Text>
+
+    <!-- Texte pour le bouton dans le menu de construction -->
+    <Text>
+      <GUID>1988000066</GUID>
+      <Text>Pianos</Text>
+    </Text>
+  </ModOp>
+</ModOps>

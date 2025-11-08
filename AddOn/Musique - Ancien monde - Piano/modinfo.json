@@ -1,0 +1,14 @@
+{
+	"ModID": "musique-ancien-monde-piano",
+	"Version": "1.0",
+	"Category": {
+		"English": "AddOn",
+		"French": "AddOn"
+	},
+	"ModName": {
+		"English": "Musique - Ancien monde - Piano",
+		"French": "Musique - Ancien monde - Piano"
+	},
+	"CreatorName": "Shaenn",
+	"CreatorContact": "https://github.com/Shaenn/Anno1800"
+}
