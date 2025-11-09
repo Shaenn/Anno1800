@@ -43,13 +43,13 @@
     </Asset>
   </ModOp>
 
-  <ModOp Type="addNextSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
+  <ModOp Type="add" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList">
     <Item>
       <Building>1988000026</Building>
     </Item>
   </ModOp>
 
-  <ModOp Type="addNextSibling" GUID="500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500008']">
+  <ModOp Type="add" GUID="500945" Path="/Values/ConstructionCategory/BuildingList">
     <Item>
       <Building>1988000026</Building>
     </Item>

@@ -56,14 +56,14 @@
   </ModOp>
 
 
-  <ModOp Type="addNextSibling" GUID='114553' Path="/Values/ConstructionCategory/BuildingList/Item[Building='114556']">
+  <ModOp Type="add" GUID='114553' Path="/Values/ConstructionCategory/BuildingList">
     <Item>
       <Building>1988000016</Building>
     </Item>
   </ModOp>
 
   <!-- Ajout de la châine de production au menu de constructions des besoins -->
-  <ModOp Type="addNextSibling" GUID='119024' Path="/Values/ConstructionCategory/BuildingList/Item[Building='114556']">
+  <ModOp Type="add" GUID='119024' Path="/Values/ConstructionCategory/BuildingList">
     <Item>
       <Building>1988000016</Building>
     </Item>
