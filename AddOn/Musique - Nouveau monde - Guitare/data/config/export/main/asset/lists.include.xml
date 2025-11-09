@@ -121,13 +121,29 @@
 502005 - WorkerWorkforceGoods -->
 
 <ModOps>
+  <!-- Produit disponible dans les stockages suivants -->
   <ModOp Type="add" GUID="120055,120057,120058,120059,122362" Path="/Values/ProductStorageList/ProductList">
     <Item>
       <Product>1988000070</Product>
     </Item>
   </ModOp>
 
-  <ModOp Type="add" GUID="502085,502014,502012,502013,502081,502035,502031,502034" Path="/Values/ProductList/List">
+  <!-- Est un produit dans les régions suivantes -->
+  <ModOp Type="add" GUID="502085,502014,502012,502013" Path="/Values/ProductList/List">
+    <Item>
+      <Product>1988000070</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Est un produit disponible dans l'onglet toutes les marchandises -->
+  <ModOp Type="add" GUID="502027,502067,502028,502068,502078,502080,502016,502065,502220" Path="/Values/ProductList/List">
+    <Item>
+      <Product>1988000070</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Est un produit disponible dans l'onglet Bien de consommation -->
+  <ModOp Type="add" GUID="502081,502035,502031,502034" Path="/Values/ProductList/List">
     <Item>
       <Product>1988000070</Product>
     </Item>
