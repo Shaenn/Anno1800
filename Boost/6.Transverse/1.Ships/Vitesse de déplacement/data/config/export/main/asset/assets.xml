@@ -40,6 +40,9 @@
             <Item>
               <GUID>191454</GUID>
             </Item>
+            <Item>
+              <GUID>7087</GUID>
+            </Item>
           </EffectTargets>
         </ItemEffect>
         <DivingBellUpgrade />
@@ -48,7 +51,7 @@
   </ModOp>
 
   <ModOp Type="addNextSibling" GUID='1998000003'>
-   <!-- Ancien monde -->
+    <!-- Ancien monde -->
     <Asset>
       <Template>Trigger</Template>
       <Values>

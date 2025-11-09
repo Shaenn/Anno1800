@@ -1,49 +1,56 @@
 <ModOps>
-	<!-- Bâteaux du chantier naval pour voiliers-->
-	<ModOp
-		Type="add"
-		GUID="100438,100437,100439,100441,100440"
-		Path="/Values/ItemContainer">
-		<StackLimit>200</StackLimit>
-	</ModOp>
+  <!-- Bâteaux du chantier naval pour voiliers-->
+  <ModOp
+         Type="add"
+         GUID="100438,100437,100439,100441,100440"
+         Path="/Values/ItemContainer">
+    <StackLimit>200</StackLimit>
+  </ModOp>
 
-	<!-- Bâteaux du chantier naval pour bâteaux à vapeur-->
-	<ModOp
-		Type="add"
-		GUID="1010062,100442,100443"
-		Path="/Values/ItemContainer">
-		<StackLimit>200</StackLimit>
-	</ModOp>
+  <!-- Bâteaux du chantier naval pour bâteaux à vapeur-->
+  <ModOp
+         Type="add"
+         GUID="1010062,100442,100443"
+         Path="/Values/ItemContainer">
+    <StackLimit>200</StackLimit>
+  </ModOp>
 
-	<!-- AirShip -->
-	<ModOp 
-		Type="add" 
-		GUID="114166" 
-		Path="/Values/ItemContainer">
-		<StackLimit>200</StackLimit>
-	</ModOp>
-	
-	<!-- Pétrolier -->
-	<ModOp 
-		Type="replace" 
-		GUID="100853"
-		Path="/Values/ItemContainer/StackLimit">
-		<StackLimit>500</StackLimit>
-	</ModOp>
-	
-	<!-- Modification de l'affichage pour les routes de commerces -->
-	 <!-- Normal -->
-	<ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Normal/MaxGoodTransferAmount">
-		<MaxGoodTransferAmount>200</MaxGoodTransferAmount>
-	</ModOp>
-	<ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Normal/DefaultGoodTransferAmount">
-		<DefaultGoodTransferAmount>200</DefaultGoodTransferAmount>
-	</ModOp>
-	<!-- Oil -->
-	<ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Oil/DefaultGoodTransferAmount">
-		<DefaultGoodTransferAmount>500</DefaultGoodTransferAmount>
-	</ModOp>
-	<ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Oil/MaxGoodTransferAmount">
-		<MaxGoodTransferAmount>500</MaxGoodTransferAmount>
-	</ModOp>
+  <!-- AirShip -->
+  <ModOp
+         Type="add"
+         GUID="114166,1060"
+         Path="/Values/ItemContainer">
+    <StackLimit>200</StackLimit>
+  </ModOp>
+
+  <!-- Pétrolier -->
+  <ModOp
+         Type="replace"
+         GUID="100853"
+         Path="/Values/ItemContainer/StackLimit">
+    <StackLimit>500</StackLimit>
+  </ModOp>
+
+  <!-- Modification de l'affichage pour les routes de commerces -->
+  <!-- Normal -->
+  <ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Normal/MaxGoodTransferAmount">
+    <MaxGoodTransferAmount>200</MaxGoodTransferAmount>
+  </ModOp>
+  <ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Normal/DefaultGoodTransferAmount">
+    <DefaultGoodTransferAmount>200</DefaultGoodTransferAmount>
+  </ModOp>
+  <!-- Oil -->
+  <ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Oil/DefaultGoodTransferAmount">
+    <DefaultGoodTransferAmount>500</DefaultGoodTransferAmount>
+  </ModOp>
+  <ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Oil/MaxGoodTransferAmount">
+    <MaxGoodTransferAmount>500</MaxGoodTransferAmount>
+  </ModOp>
+  <!-- Mail -->
+  <ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Mail/DefaultGoodTransferAmount">
+    <DefaultGoodTransferAmount>500</DefaultGoodTransferAmount>
+  </ModOp>
+  <ModOp Type="replace" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Mail/MaxGoodTransferAmount">
+    <MaxGoodTransferAmount>500</MaxGoodTransferAmount>
+  </ModOp>
 </ModOps>
