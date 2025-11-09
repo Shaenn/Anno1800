@@ -5,6 +5,7 @@
     <FactoryBase>
       <FactoryOutputs>
         <Item>
+          <Product>114369</Product>
           <Amount>100</Amount>
           <StorageAmount>8000</StorageAmount>
         </Item>
@@ -14,13 +15,11 @@
   </ModOp>
 
   <!-- Réduction du nombre de module requis -->
-  <ModOp Path="/Values/ModuleOwner" GUID="25020" Type="merge">
-	  <ModuleLimits>
-			<Main>
-				<Limit>
-					8
-				</Limit>
-			</Main>
-		</ModuleLimits>
-	</ModOp>
+  <ModOp Path="/Values/ModuleOwner/ModuleLimits" GUID="25020" Type="merge">
+    <ModuleLimits>
+      <Main>
+        <Limit>12</Limit>
+      </Main>
+    </ModuleLimits>
+  </ModOp>
 </ModOps>
