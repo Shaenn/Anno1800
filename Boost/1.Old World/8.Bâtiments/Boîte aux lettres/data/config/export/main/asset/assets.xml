@@ -1,0 +1,33 @@
+<ModOps>
+  <ModOp Type="merge" GUID="538" Path="/Values/FactoryBase">
+    <FactoryBase>
+      <FactoryOutputs>
+        <Item>
+          <Product>535</Product>
+          <!--Local Mail-->
+          <Amount>100</Amount>
+          <StorageAmount>8000</StorageAmount>
+        </Item>
+      </FactoryOutputs>
+      <CycleTime>15</CycleTime>
+      <WarehouseTransporterAsset>829</WarehouseTransporterAsset>
+      <!--MailTransporter-->
+      <MissingConnectionInfolayer>0</MissingConnectionInfolayer>
+      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+    </FactoryBase>
+  </ModOp>
+
+  <ModOp Type="merge" GUID="538" Path="/Values/ItemContainer">
+    <ItemContainer>
+      <SocketScopeRadius>6666</SocketScopeRadius>
+    </ItemContainer>
+  </ModOp>
+
+  <ModOp Type="merge" GUID="538" Path="/Values/Warehouse">
+    <Warehouse>
+      <WarehouseStorage>
+        <StorageMax>8000</StorageMax>
+      </WarehouseStorage>
+    </Warehouse>
+  </ModOp>
+</ModOps>
