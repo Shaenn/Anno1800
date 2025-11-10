@@ -1,7 +1,7 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-	  
-<!--ITEMS-->    
+
+    <!--ITEMS-->
 
     <Text>
       <GUID>1800000302</GUID>
@@ -20,10 +20,14 @@
       <Text>Ces pellets sont un riche vecteur d’énergie, utilisés pour produire efficacement de l’énergie par combustion dans la centrale thermique.</Text>
     </Text>
 
-<!--CHAIN-->
+    <!--CHAIN-->
 
     <Text>
       <GUID>1800000304</GUID>
+      <Text>Centrale thermique et écologique à pellets</Text>
+    </Text>
+    <Text>
+      <GUID>1800000404</GUID>
       <Text>Centrale thermique et écologique à pellets</Text>
     </Text>
     <Text>
@@ -31,7 +35,7 @@
       <Text>Montre la chaîne de production nécessaire pour une centrale thermique efficace.</Text>
     </Text>
 
-<!--BUILDINGS-->
+    <!--BUILDINGS-->
 
     <Text>
       <GUID>1800000305</GUID>
@@ -40,7 +44,7 @@
     <Text>
       <GUID>1800000315</GUID>
       <Text>Bois broyé utilisé pour fabriquer des pellets.</Text>
-    </Text> 
+    </Text>
 
     <Text>
       <GUID>1800000306</GUID>
@@ -56,9 +60,13 @@
       <Text>Centrale thermique et écologique à pellets</Text>
     </Text>
     <Text>
+      <GUID>1800000407</GUID>
+      <Text>Centrale thermique et écologique à pellets</Text>
+    </Text>
+    <Text>
       <GUID>1800000317</GUID>
       <Text>Consomme des pellets pour produire de l’énergie thermique et alimenter les bâtiments environnants. Coûteuse mais efficace.</Text>
     </Text>
-    
+
   </ModOp>
 </ModOps>

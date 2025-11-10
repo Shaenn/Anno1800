@@ -26,7 +26,7 @@
           <ProductCategory>11703</ProductCategory>
           <BasePrice>482</BasePrice>
           <CivLevel>2</CivLevel>
-          <AssociatedRegion>Moderate</AssociatedRegion>
+          <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
         </Product>
         <ExpeditionAttribute>
           <BaseMorale>25</BaseMorale>
@@ -40,6 +40,7 @@
       </Values>
     </Asset>
   </ModOp>
+
   <!--AJOUTER UN NOUVEL OBJET [COPEAUX DE BOIS]-->
   <ModOp Type="addNextSibling" GUID='11703'>
     <Asset>
@@ -80,6 +81,7 @@
       </Values>
     </Asset>
   </ModOp>
+
   <!--AJOUTER DE NOUVEAUX OBJETS À LA LISTE DE STOCKAGE-->
   <ModOp Type="add" GUID='120055' Path="/Values/ProductStorageList/ProductList">
     <Item>
@@ -89,18 +91,21 @@
       <Product>1800000303</Product>
     </Item>
   </ModOp>
+
   <!--AJOUTER [Pellets] À LA LISTE DES PRODUITS-->
   <ModOp Type="add" GUID='502004,502010,502017,502024,502049,501958' Path="/Values/ProductList/List">
     <Item>
       <Product>1800000303</Product>
     </Item>
   </ModOp>
+
   <!--AJOUTER [COPEAUX DE BOIS] À LA LISTE DES PRODUITS-->
   <ModOp Type="add" GUID='502020,502066,502043,501960' Path="/Values/ProductList/List">
     <Item>
       <Product>1800000302</Product>
     </Item>
   </ModOp>
+
   <!--RÉVÉLER-->
   <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
     <Asset>
@@ -162,6 +167,7 @@
       </Values>
     </Asset>
   </ModOp>
+
   <!--DÉVERROUILLAGE-->
   <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
     <Asset>
@@ -223,18 +229,19 @@
       </Values>
     </Asset>
   </ModOp>
+
   <!--NIVEAU DU MENU DES BÂTIMENTS-->
-  <ModOp Type="addNextSibling" GUID='25000192' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500506']">
+  <ModOp Type="add" GUID="25000192" Path="/Values/ConstructionCategory/BuildingList">
     <Item>
       <Building>1800000304</Building>
     </Item>
   </ModOp>
-  <!--CATÉGORIE DU MENU DES BÂTIMENTS-->
-  <ModOp Type="addNextSibling" GUID='500944' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500506']">
+  <ModOp Type="add" GUID="5466" Path="/Values/ConstructionCategory/BuildingList">
     <Item>
-      <Building>1800000304</Building>
+      <Building>1800000404</Building>
     </Item>
   </ModOp>
+
   <!--CHAÎNE DE PRODUCTION-->
   <ModOp Type="addNextSibling" GUID='15039'>
     <Asset>
@@ -273,6 +280,55 @@
           </Tier1>
         </ProductionChain>
         <Locked />
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Burning Powerplant</Text>
+              <Status>Exported</Status>
+              <ExportCount>2</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>14882</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='500091'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1800000404</GUID>
+          <Name>template chain</Name>
+          <IconFilename>data/modgraphics/icons/electric_green.png</IconFilename>
+          <InfoDescription>1800000314</InfoDescription>
+        </Standard>
+        <ProductionChain>
+          <!--CENTRALE ÉLECTRIQUE-->
+          <Building>1800000407</Building>
+          <Tier1>
+            <Item>
+              <!--TRAITEMENT DES PELLETS-->
+              <Building>1800000306</Building>
+              <Tier2>
+                <Item>
+                  <!--TRAITEMENT DES COPEAUX DE BOIS-->
+                  <Building>1800000305</Building>
+                  <Tier3>
+                    <Item>
+                      <!-- BOIS -->
+                      <Building>1010266</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+                <Item>
+                  <!-- CHARBON -->
+                  <Building>1010304</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
         <Text>
           <LocaText>
             <English>
@@ -609,6 +665,7 @@
       </Values>
     </Asset>
   </ModOp>
+
   <ModOp Type="addNextSibling" GUID='1010343'>
     <!--CENTRALE ÉLECTRIQUE ÉCOLOGIQUE-->
     <Asset>
@@ -768,5 +825,218 @@
       </Values>
     </Asset>
   </ModOp>
+  <ModOp Type="addNextSibling" GUID='101254'>
+    <!--CENTRALE ÉLECTRIQUE ÉCOLOGIQUE-->
+    <Asset>
+      <Template>PowerplantBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1800000407</GUID>
+          <Name>electricity_04 (Pallets Power Plant)</Name>
+          <IconFilename>data/modgraphics/icons/electric_green.png</IconFilename>
+          <InfoDescription>1800000317</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>11169</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>125000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>120</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>250</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>60</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/special/electricity_02/electricity_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <StaticHelpEntryPoint>NewWorldRising_Electricity</StaticHelpEntryPoint>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Gas-Fired Power Plant</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>35861</LineID>
+        </Text>
+        <Constructable />
+        <Locked>
+          <DLCDependency>24963</DLCDependency>
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200832</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <LogisticNode>
+          <TransporterCountMax>1</TransporterCountMax>
+          <PathLayers>Street</PathLayers>
+        </LogisticNode>
+        <AmbientMoodProvider />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>5000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010367</Product>
+              <Amount>300</Amount>
+              <ShutdownThreshold>0.5</ShutdownThreshold>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>5500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Fire>
+              <Base>1</Base>
+            </Fire>
+          </Infectable>
+          <Explosion>
+            <DamageExplosionChance>5</DamageExplosionChance>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>10</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Explosion>
+              <BaseChance>5</BaseChance>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Powerplant>
+          <IndustrializationDistance>800</IndustrializationDistance>
+        </Powerplant>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1800000303</Product>
+              <Amount>1</Amount>
+              <StorageAmount>80</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>60</CycleTime>
+        </FactoryBase>
+        <Culture>
+          <Attractiveness>15</Attractiveness>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <PublicService>
+          <FullSatisfactionDistance>800</FullSatisfactionDistance>
+          <NoSatisfactionDistance>900</NoSatisfactionDistance>
+        </PublicService>
+      </Values>
+    </Asset>
+  </ModOp>
   <!--####	##########################		####-->
+
+  <ModOp Type="addNextSibling" GUID="130219">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1800000400</GUID>
+          <Name>Artistes à 1800</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition/>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>5403</Context>
+                <CounterAmount>1800</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1800000404</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1800000407</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
 </ModOps>
