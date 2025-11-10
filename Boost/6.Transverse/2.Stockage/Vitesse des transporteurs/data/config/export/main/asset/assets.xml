@@ -16,7 +16,7 @@
     <LoadingTime>0</LoadingTime>
     <UnloadingTime>0</UnloadingTime>
   </ModOp>
-  
+
   <!-- Transporteur de l'entrepôt -->
   <ModOp Type="add" GUID='1010105' Path="/Values/Transporter7">
     <TransporterCapacity>100</TransporterCapacity>
@@ -43,6 +43,15 @@
 
   <!-- Transporteur tracteur -->
   <ModOp Type="merge" GUID='120062' Path="/Values/Transporter7/ProcessingTimes">
+    <LoadingTime>0</LoadingTime>
+    <UnloadingTime>0</UnloadingTime>
+  </ModOp>
+
+  <!-- Transporteur scooter -->
+  <ModOp Type="add" GUID='8943' Path="/Values/Transporter7">
+    <TransporterCapacity>100</TransporterCapacity>
+  </ModOp>
+  <ModOp Type="merge" GUID='8943' Path="/Values/Transporter7/ProcessingTimes">
     <LoadingTime>0</LoadingTime>
     <UnloadingTime>0</UnloadingTime>
   </ModOp>
