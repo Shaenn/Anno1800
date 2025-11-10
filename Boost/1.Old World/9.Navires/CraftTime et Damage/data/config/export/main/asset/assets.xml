@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="/Values/Craftable"
+         GUID="100440,1060"
+         Type="merge">
+    <CraftingTime>1000</CraftingTime>
+  </ModOp>
+
+  <ModOp Path="/Values/Attacker"
+         GUID="100440"
+         Type="merge">
+    <BaseDamage>5250</BaseDamage>
+    <ReloadTime>10</ReloadTime>
+  </ModOp>
+</ModOps>
