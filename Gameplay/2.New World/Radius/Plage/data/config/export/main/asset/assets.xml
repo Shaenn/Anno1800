@@ -1,0 +1,18 @@
+<ModOps>
+  <ModOp Type="merge" GUID="6264" Path="/Values/BuffFactory">
+    <BuffFactory>
+      <ProductionBuffScope>Local</ProductionBuffScope>
+      <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+      <PublicServiceData>
+        <PublicServices>
+          <Item>
+            <PublicService>6265</PublicService>
+          </Item>
+        </PublicServices>
+        <FullSatisfactionDistance>500</FullSatisfactionDistance>
+        <NoSatisfactionDistance>600</NoSatisfactionDistance>
+        <AdditionalRangeFactor>1000</AdditionalRangeFactor>
+      </PublicServiceData>
+    </BuffFactory>
+  </ModOp>
+</ModOps>
