@@ -24,6 +24,7 @@
     </ModuleLimits>
   </ModOp>
 
+  <!-- Boost de production sur le pâturage électrifié -->
   <ModOp Path="/Values/FactoryBase" GUID="8026" Type="merge">
     <FactoryBase>
       <FactoryOutputs>

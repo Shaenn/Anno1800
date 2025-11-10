@@ -14,13 +14,29 @@
   </ModOp>
 
   <!-- Réduction du nombre de module requis -->
-	<ModOp Path="/Values/ModuleOwner" GUID="101269" Type="merge">
-		<ModuleLimits>
-			<Main>
-				<Limit>
-					1
-				</Limit>
-			</Main>
-		</ModuleLimits>
-	</ModOp>
+  <ModOp Path="/Values/ModuleOwner" GUID="101269" Type="merge">
+    <ModuleLimits>
+      <Main>
+        <Limit>
+          1
+        </Limit>
+      </Main>
+    </ModuleLimits>
+  </ModOp>
+
+  <!-- Boost de production sur le pâturage électrifié -->
+  <ModOp Path="/Values/FactoryBase" GUID="8002" Type="merge">
+    <FactoryBase>
+      <FactoryOutputs>
+        <Item>
+          <Product>5385</Product>
+          <Amount>100</Amount>
+          <StorageAmount>8000</StorageAmount>
+        </Item>
+      </FactoryOutputs>
+      <CycleTime>15</CycleTime>
+      <WarehouseTransporterAsset>0</WarehouseTransporterAsset>
+      <ClampedMaxTransporterLogisticCost>0.1</ClampedMaxTransporterLogisticCost>
+    </FactoryBase>
+  </ModOp>
 </ModOps>
