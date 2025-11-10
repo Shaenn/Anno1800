@@ -1,16 +1,31 @@
 <ModOps>
-	<ModOp Type="merge" GUID="4260" Path="/Values/Warehouse/WarehouseStorage">	
-		<StorageMax>8000</StorageMax>
-	</ModOp>
+  <ModOp Type="merge" GUID="4260" Path="/Values/Warehouse/WarehouseStorage">
+    <StorageMax>8000</StorageMax>
+  </ModOp>
 
-	<ModOp Path="/Values/FactoryBase/FactoryOutputs"
+  <ModOp Path="/Values/FactoryBase/FactoryOutputs"
          GUID="4260"
          Type="merge">
-      <FactoryOutputs>
+    <FactoryOutputs>
+      <Item>
+        <Amount>100</Amount>
+        <StorageAmount>8000</StorageAmount>
+      </Item>
+    </FactoryOutputs>
+  </ModOp>
+
+  <!-- Amélioration du personnage pour produire plus de rapport -->
+  <ModOp Path="/Values/FactoryUpgrade"
+         GUID="4272"
+         Type="merge">
+    <FactoryUpgrade>
+      <AdditionalOutput>
         <Item>
+          <Product>4268</Product>
+          <AdditionalOutputCycle>1</AdditionalOutputCycle>
           <Amount>100</Amount>
-          <StorageAmount>8000</StorageAmount>
         </Item>
-      </FactoryOutputs>
+      </AdditionalOutput>
+    </FactoryUpgrade>
   </ModOp>
 </ModOps>

@@ -30,4 +30,19 @@
       </WarehouseStorage>
     </Warehouse>
   </ModOp>
+
+  <!-- Amélioration du personnage pour produire plus de rapport -->
+  <ModOp Path="/Values/FactoryUpgrade"
+         GUID="4270"
+         Type="merge">
+    <FactoryUpgrade>
+      <AdditionalOutput>
+        <Item>
+          <Product>4267</Product>
+          <AdditionalOutputCycle>1</AdditionalOutputCycle>
+          <Amount>100</Amount>
+        </Item>
+      </AdditionalOutput>
+    </FactoryUpgrade>
+  </ModOp>
 </ModOps>
