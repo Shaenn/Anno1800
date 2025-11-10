@@ -1,6 +1,6 @@
 <ModOps>
   <ModOp Path="/Values/FactoryBase"
-         GUID="5381"
+         GUID="5458"
          Type="merge">
     <FactoryBase>
       <FactoryOutputs>
