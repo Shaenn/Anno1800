@@ -6,7 +6,7 @@
         <Standard>
           <GUID>1988000055</GUID>
           <Name>Atelier d'Artisan : Harpe</Name>
-          <IconFilename>data\graphics\icons\saxophone.png</IconFilename>
+          <IconFilename>data\graphics\icons\harpe.png</IconFilename>
         </Standard>
         <Building>
           <BuildingCategoryName>132773</BuildingCategoryName>
