@@ -1,0 +1,6 @@
+<ModOps>
+  <Include File="./buildings.include.xml" />
+  <Include File="./buildings-2.include.xml" />
+  <Include File="./construction-category.include.xml" />
+  <Include File="./triggers.include.xml" />
+</ModOps>

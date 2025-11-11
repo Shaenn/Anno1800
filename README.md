@@ -156,10 +156,8 @@ Nouveau monde => Artistes
 3. Lanternes
 
 ##
-Réduire le temps de traitement de la chaudière arctique.
-Augmenter le radius de l'hôtel de ville.
+
 Améliorer les marchandises à larguer.
-soucis icone chaine de prod harpe c'est le saxo qui s'affiche.
 Penser à refaire l'addon d'énergie pour qu'il soit mieux découper.
 Voir pour un addon de fertilisation.
 Penser à faire du courrier régional.
