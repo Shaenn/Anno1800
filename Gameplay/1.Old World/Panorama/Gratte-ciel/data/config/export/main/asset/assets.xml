@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="merge" GUID='601888,601889,601890,601882,601883,601884,601886,601891,1442504,1442505,1442506,1442507' Path="/Values/Residence7/GoodViewStartValue">
+    100
+  </ModOp>
+  <ModOp Type="merge" GUID='601888,601889,601890,601882,601883,601884,601886,601891,1442504,1442505,1442506,1442507' Path="/Values/Residence7/GoodViewRadius">
+    0.1
+  </ModOp>
+</ModOps>
