@@ -8,6 +8,14 @@
     </ProcessingTimes>
   </ModOp>
 
+  <ModOp Type="add" GUID='1010106' Path="/Values/Transporter7">
+    <TransporterCapacity>100</TransporterCapacity>
+    <ProcessingTimes>
+      <LoadingTime>0</LoadingTime>
+      <UnloadingTime>0</UnloadingTime>
+    </ProcessingTimes>
+  </ModOp>
+
   <!-- Electric Factory Transporter -->
   <ModOp Type="add" GUID='120028' Path="/Values/Transporter7">
     <TransporterCapacity>100</TransporterCapacity>
