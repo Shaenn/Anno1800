@@ -1,9 +1,21 @@
 <ModOps>
-	<ModOp Type="add" GUID="114751" Path="/Values">
-		<HeatProvider>
-			<HeatRange>99</HeatRange>
-			<MinProductivityPercentToProvideHeat>90</MinProductivityPercentToProvideHeat>
-			<MissingHeatNotification>115008</MissingHeatNotification>
-		</HeatProvider>
-	</ModOp>
+  <ModOp Type="add" GUID="114751" Path="/Values">
+    <HeatProvider>
+      <HeatRange>99</HeatRange>
+      <MinProductivityPercentToProvideHeat>90</MinProductivityPercentToProvideHeat>
+      <MissingHeatNotification>115008</MissingHeatNotification>
+    </HeatProvider>
+  </ModOp>
+
+  <ModOp Type="merge" GUID="114751" Path="/Values/FactoryBase">
+    <FactoryBase>
+      <FactoryInputs>
+        <Item>
+          <Product>1010226</Product>
+          <Amount>1</Amount>
+          <StorageAmount>100</StorageAmount>
+        </Item>
+      </FactoryInputs>
+    </FactoryBase>
+  </ModOp>
 </ModOps>
