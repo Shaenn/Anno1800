@@ -1,33 +1,33 @@
 <ModOps>
-	<ModOp Type="merge" GUID="114544" Path="/Values/IrrigationSource">
-        <PipeFillCapacity>5000</PipeFillCapacity>
-    </ModOp>
+  <ModOp Type="merge" GUID="114544" Path="/Values/IrrigationSource">
+    <PipeFillCapacity>5000</PipeFillCapacity>
+  </ModOp>
 
-	<ModOp Type="merge" GUID="114759" Path="/Values/IrrigationConfig/IrrigationTiles/IrrigationTileDefinitions">
-		<Source_River>
-			<SourceSpreadMin>800</SourceSpreadMin>
-			<SourceSpredMax>800</SourceSpredMax>
-			<TileItselfIsIrrigated>100</TileItselfIsIrrigated>
-		</Source_River>
-		<Source_Canal>
-			<SourceSpreadMin>800</SourceSpreadMin>
-			<SourceSpredMax>800</SourceSpredMax>
-			<TileItselfIsIrrigated>100</TileItselfIsIrrigated>
-		</Source_Canal>
-		<Source_Lake_Small>
-			<SourceSpreadMin>800</SourceSpreadMin>
-			<SourceSpredMax>800</SourceSpredMax>
-			<TileItselfIsIrrigated>100</TileItselfIsIrrigated>
-		</Source_Lake_Small>
-		<Source_Lake_Medium>
-			<SourceSpreadMin>800</SourceSpreadMin>
-			<SourceSpredMax>800</SourceSpredMax>
-			<TileItselfIsIrrigated>100</TileItselfIsIrrigated>
-		</Source_Lake_Medium>
-		<Source_Lake_Large>
-			<SourceSpreadMin>800</SourceSpreadMin>
-			<SourceSpredMax>800</SourceSpredMax>
-			<TileItselfIsIrrigated>100</TileItselfIsIrrigated>
-		</Source_Lake_Large>
-    </ModOp>	
+  <ModOp Type="merge" GUID="114759" Path="/Values/IrrigationConfig/IrrigationTiles/IrrigationTileDefinitions">
+    <Source_River>
+      <SourceSpreadMin>800</SourceSpreadMin>
+      <SourceSpredMax>800</SourceSpredMax>
+      <TileItselfIsIrrigated>100</TileItselfIsIrrigated>
+    </Source_River>
+    <Source_Canal>
+      <SourceSpreadMin>800</SourceSpreadMin>
+      <SourceSpredMax>800</SourceSpredMax>
+      <TileItselfIsIrrigated>100</TileItselfIsIrrigated>
+    </Source_Canal>
+    <Source_Lake_Small>
+      <SourceSpreadMin>800</SourceSpreadMin>
+      <SourceSpredMax>800</SourceSpredMax>
+      <TileItselfIsIrrigated>100</TileItselfIsIrrigated>
+    </Source_Lake_Small>
+    <Source_Lake_Medium>
+      <SourceSpreadMin>800</SourceSpreadMin>
+      <SourceSpredMax>800</SourceSpredMax>
+      <TileItselfIsIrrigated>100</TileItselfIsIrrigated>
+    </Source_Lake_Medium>
+    <Source_Lake_Large>
+      <SourceSpreadMin>800</SourceSpreadMin>
+      <SourceSpredMax>800</SourceSpredMax>
+      <TileItselfIsIrrigated>100</TileItselfIsIrrigated>
+    </Source_Lake_Large>
+  </ModOp>
 </ModOps>

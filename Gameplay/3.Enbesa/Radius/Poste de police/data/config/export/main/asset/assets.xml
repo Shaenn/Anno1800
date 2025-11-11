@@ -1,10 +1,10 @@
-<ModOps>	
-	<ModOp Type="add" GUID="114508" Path="/Values/IncidentInfluencer/Influence/Fire">
-        <Influence>
-            <Riot>
-                <Influence>-99</Influence>
-                <Distance>600</Distance>
-            </Riot>
-        </Influence>        
-    </ModOp>
+<ModOps>
+  <ModOp Type="add" GUID="114508" Path="/Values/IncidentInfluencer/Influence/Fire">
+    <Influence>
+      <Riot>
+        <Influence>-99</Influence>
+        <Distance>600</Distance>
+      </Riot>
+    </Influence>
+  </ModOp>
 </ModOps>

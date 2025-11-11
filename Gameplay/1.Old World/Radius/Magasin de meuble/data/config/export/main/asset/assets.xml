@@ -1,12 +1,12 @@
 <ModOps>
-	<ModOp Type="merge" GUID="135105,135122,135123,135120,135121" Path="/Values/BuffFactory">	
-		<BuffFactory>
-			<ProductionBuffScope>Radius</ProductionBuffScope>
-			<ProductionBuffDistance>9999</ProductionBuffDistance>
-			<PublicServiceData>
-				<FullSatisfactionDistance>9999</FullSatisfactionDistance>
-				<NoSatisfactionDistance>10000</NoSatisfactionDistance>
-			</PublicServiceData>
-		</BuffFactory>
-	</ModOp>
+  <ModOp Type="merge" GUID="135105,135122,135123,135120,135121" Path="/Values/BuffFactory">
+    <BuffFactory>
+      <ProductionBuffScope>Radius</ProductionBuffScope>
+      <ProductionBuffDistance>9999</ProductionBuffDistance>
+      <PublicServiceData>
+        <FullSatisfactionDistance>9999</FullSatisfactionDistance>
+        <NoSatisfactionDistance>10000</NoSatisfactionDistance>
+      </PublicServiceData>
+    </BuffFactory>
+  </ModOp>
 </ModOps>

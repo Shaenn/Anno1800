@@ -1,10 +1,10 @@
-<ModOps>	
-	<ModOp Type="merge" GUID="119892" Path="/Values/IncidentInfluencer/Influence/Fire">
-        <Influence>-99</Influence>
-        <Distance>600</Distance>
-    </ModOp>
-	<ModOp Type="merge" GUID="119892" Path="/Values/IncidentInfluencer/Influence/Explosion">
-        <Influence>-99</Influence>
-        <Distance>600</Distance>
-    </ModOp>
+<ModOps>
+  <ModOp Type="merge" GUID="119892" Path="/Values/IncidentInfluencer/Influence/Fire">
+    <Influence>-99</Influence>
+    <Distance>600</Distance>
+  </ModOp>
+  <ModOp Type="merge" GUID="119892" Path="/Values/IncidentInfluencer/Influence/Explosion">
+    <Influence>-99</Influence>
+    <Distance>600</Distance>
+  </ModOp>
 </ModOps>

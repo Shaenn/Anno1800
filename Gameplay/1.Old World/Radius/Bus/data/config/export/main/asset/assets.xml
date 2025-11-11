@@ -1,6 +1,6 @@
 <ModOps>
-	<ModOp Type="merge" GUID="601326" Path="/Values/BusStop">	
-		<ActivationRadius>500</ActivationRadius>
-        <StreetConnectionRange>500</StreetConnectionRange>
-	</ModOp>
+  <ModOp Type="merge" GUID="601326" Path="/Values/BusStop">
+    <ActivationRadius>500</ActivationRadius>
+    <StreetConnectionRange>500</StreetConnectionRange>
+  </ModOp>
 </ModOps>
