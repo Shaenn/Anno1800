@@ -1,0 +1,9 @@
+<ModOps>
+  <ModOp GUID='112643' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='112693']/" Type="add" >
+    <ResearchValue>20</ResearchValue>
+  </ModOp>
+
+  <ModOp GUID='112643' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120032']/" Type="add" >
+    <ResearchValue>40</ResearchValue>
+  </ModOp>
+</ModOps>
