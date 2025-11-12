@@ -1,0 +1,9 @@
+<ModOps>
+  <Include File="./item-effect-target-pool.include.xml" />
+  <Include File="./personnages.include.xml" />
+  <Include File="./produits.include.xml" />
+  <Include File="./lists.include.xml" />
+  <Include File="./modules.include.xml" />
+  <Include File="./buffs.include.xml" />
+  <Include File="./triggers.include.xml" />
+</ModOps>

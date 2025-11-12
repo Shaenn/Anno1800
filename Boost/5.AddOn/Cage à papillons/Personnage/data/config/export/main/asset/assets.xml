@@ -1,0 +1,17 @@
+<ModOps>
+  <ModOp Type="merge" GUID="1988000101" Path="/Values/FactoryUpgrade">
+    <FactoryUpgrade>
+      <ProductivityUpgrade>
+        <Value>100</Value>
+        <Percental>1</Percental>
+      </ProductivityUpgrade>
+      <AdditionalOutput>
+        <Item>
+          <Product>1988000103</Product><!-- Papillons -->
+          <AdditionalOutputCycle>1</AdditionalOutputCycle>
+          <Amount>100</Amount>
+        </Item>
+      </AdditionalOutput>
+    </FactoryUpgrade>
+  </ModOp>
+</ModOps>

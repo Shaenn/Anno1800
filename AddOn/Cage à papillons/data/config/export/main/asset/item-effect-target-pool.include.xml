@@ -1,0 +1,39 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="190786">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000100</GUID>
+          <Name>Toutes les fermes de fleurs</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_orchid.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Toutes les fermes de fleurs</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>15250</LineID>
+        </Text>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>114447</GUID>
+            </Item>
+            <Item>
+              <GUID>114451</GUID>
+            </Item>
+            <Item>
+              <GUID>5814</GUID>
+            </Item>
+            <Item>
+              <GUID>114453</GUID>
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

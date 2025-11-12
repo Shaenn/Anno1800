@@ -1,0 +1,26 @@
+<ModOps>
+
+  <ModOp Type="add" GUID="120055" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>1988000103</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="502069,502071" Path="/Values/ProductList/List">
+    <Item>
+      <Product>1988000103</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="502008,502022" Path="/Values/ProductList/List">
+    <Item>
+      <Product>1988000103</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="502076,502038,502037" Path="/Values/ProductList/List">
+    <Item>
+      <Product>1988000103</Product>
+    </Item>
+  </ModOp>
+</ModOps>

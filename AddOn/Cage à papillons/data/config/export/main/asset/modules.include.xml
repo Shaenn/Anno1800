@@ -1,0 +1,216 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="25240">
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000105</GUID>
+          <Name>Butterfly Module Moderate</Name>
+          <IconFilename>data/ui/icons/silo.png</IconFilename>
+          <InfoDescription>1988000106</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Butterfly Silo</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>55233</LineID>
+        </Text>
+        <Building>
+          <BuildingType>BuildingModule</BuildingType>
+          <BuildingCategoryName>269960</BuildingCategoryName>
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+        </Building>
+        <Blocking />
+        <Mesh />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>1988000107</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+        </BuffFactory>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1988000103</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>300</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <FeedbackController />
+        <Pausable />
+        <Selection>
+          <StaticHelpEntryPoint>SeedsOfChangeFertilizer</StaticHelpEntryPoint>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <Maintenance />
+        <AmbientMoodProvider />
+        <LogisticNode />
+        <Constructable />
+        <Locked>
+          <DLCDependency>24961</DLCDependency>
+        </Locked>
+        <IncidentInfectable />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/industrial_ornaments_TurTur/Tanks/z_gras_bright/tank_1x1_01_gras_bright.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/industrial_ornaments_TurTur/Tanks/z_gras_bright/tank_1x1_03_gras_bright.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270121</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+        </SoundEmitter>
+        <Cost>
+          <Costs>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>BuffFactory</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>BuffFactoryModule</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>1000</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>BuffFactory</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>BuffFactoryModule</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>2</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>BuffFactory</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>BuffFactoryModule</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>3</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>BuffFactory</TemplateName>
+                    <Index>3</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>BuffFactoryModule</TemplateName>
+                    <Index>3</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>4</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>BuffFactory</TemplateName>
+                    <Index>4</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>BuffFactoryModule</TemplateName>
+                    <Index>4</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>5</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>BuffFactory</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>BuffFactoryModule</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </Costs>
+        </Cost>
+        <BuildingModule>
+          <ModuleType>FertilizerModule</ModuleType>
+        </BuildingModule>
+        <Infolayer />
+        <UpgradeList />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25054" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>1988000105</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="merge" GUID="133031,133496,133030,135085,133004,135088,134614" Path="/Values">
+    <ModuleOwner>
+      <FertilizerModuleData>
+        <Module>1988000105</Module>
+      </FertilizerModuleData>
+      <ModuleBuildRadius>0</ModuleBuildRadius>
+    </ModuleOwner>
+  </ModOp>
+</ModOps>

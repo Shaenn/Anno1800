@@ -1,0 +1,45 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="114359">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000103</GUID>
+          <Name>Butterfly</Name>
+          <IconFilename>data/ui/icons/butterflies.png</IconFilename>
+          <InfoDescription>1988000104</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Butterfly</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>44031</LineID>
+        </Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>31</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Africa</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Africa</RegionType>
+              <RequiredDLCs>
+                <Item>
+                  <RequiredDLC>410071</RequiredDLC>
+                </Item>
+              </RequiredDLCs>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,50 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="25713">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000107</GUID>
+          <Name>Butterfly_Buff</Name>
+          <IconFilename>data/ui/icons/butterflies.png</IconFilename>
+          <InfoDescription>1988000108</InfoDescription>
+        </Standard>
+        <ItemEffect />
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Butterfly_Buff</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>55229</LineID>
+        </Text>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

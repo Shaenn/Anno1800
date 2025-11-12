@@ -1,0 +1,40 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1988000101</GUID>
+      <Text>Triss Merigold, la Dame aux Papillons</Text>
+    </Text>
+    <Text>
+      <GUID>1988000102</GUID>
+      <Text>Une experte agricole, dont même les choix vestimentaires permettent d'attirer à elle les papillons.</Text>
+    </Text>
+    <Text>
+      <GUID>1988000103</GUID>
+      <Text>Papillons</Text>
+    </Text>
+    <Text>
+      <GUID>1988000104</GUID>
+      <Text>Les Papillons aident à la pollénisation des arbres fruitiers.</Text>
+    </Text>
+    <Text>
+      <GUID>1988000105</GUID>
+      <Text>Cage à papillons</Text>
+    </Text>
+    <Text>
+      <GUID>1988000106</GUID>
+      <Text>La population de papillons vivant autour de ces cages aigent à la pollénisation des arbres fruitiers.</Text>
+    </Text>
+    <Text>
+      <GUID>1988000107</GUID>
+      <Text>Les Papillons aident à la pollénisation des arbres fruitiers.</Text>
+    </Text>
+    <Text>
+      <GUID>1988000108</GUID>
+      <Text>Les Papillons aident à la pollénisation des arbres fruitiers.</Text>
+    </Text>
+    <Text>
+      <GUID>1988000100</GUID>
+      <Text>Toutes les fermes à fleurs</Text>
+    </Text>
+  </ModOp>
+</ModOps>

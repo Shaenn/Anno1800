@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="merge" GUID="1988000105" Path="/Values/FactoryBase">
+    <FactoryBase>
+      <FactoryInputs>
+        <Item>
+          <Product>1988000103</Product><!-- Papillons -->
+          <Amount>1</Amount>
+          <StorageAmount>100</StorageAmount>
+        </Item>
+      </FactoryInputs>
+      <CycleTime>300</CycleTime>
+      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+      <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+    </FactoryBase>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="192450">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1988000101</GUID>
+          <Name>Lady Butterfly</Name>
+          <IconFilename>data/ui/icons/mariana-the-master-stylist.png</IconFilename>
+          <InfoDescription>1988000102</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Lady Butterfly</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>29139</LineID>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>289400</TradePrice>
+          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1988000103</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1988000100</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item />
+            <Item />
+          </ExpeditionAttributes>
+          <ItemDifficulties>Average;Hard</ItemDifficulties>
+          <FluffText>21354</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="129991,129504,129507,8394" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>1988000101</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="130517,127831,127455,130303,8393" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1988000101</ItemLink>
+    </Item>
+  </ModOp>
+</ModOps>

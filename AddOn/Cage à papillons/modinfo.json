@@ -1,0 +1,14 @@
+{
+	"ModID": "cage-a-papillons",
+	"Version": "1.0",
+	"Category": {
+		"English": "AddOn",
+		"French": "AddOn"
+	},
+	"ModName": {
+		"English": "Cage à papipllons",
+		"French": "Cage à papipllons"
+	},
+	"CreatorName": "Shaenn",
+	"CreatorContact": "https://github.com/Shaenn/Anno1800"
+}
